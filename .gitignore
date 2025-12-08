@@ -135,6 +135,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+crypto_venv/
 .env
 .envrc
 .venv
