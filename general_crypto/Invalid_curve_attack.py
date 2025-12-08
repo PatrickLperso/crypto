@@ -17,6 +17,7 @@ from sage.all import EllipticCurve, GF
 from Eliptic_curve import WeierStrass, PointWeirstrass
 from Modular_arithmetic import ChineseRemainder
 
+logging.basicConfig(level=logging.INFO)
 # ===== Interfaces well defined  =========
 
 FLAG = b"crypto{????????????????????????????????????}"
@@ -155,7 +156,7 @@ def generate_invalid_curves(a:int,p:int,order:int,min_order_bruteforce:int, max_
             #logging.info(f"power_product:2**{math.log2(power_product):.1f}, target:2**{math.log2(order):.1f}, nb_primes:{len(primes_curves.keys())}")
 
             if progress_bar_last_value!=math.log2(power_product):
-                progress_bar.update(math.log2(power_product)-progress_bar_last_value)
+                progress_bar.update(min(max_value-progress_bar_last_value, math.log2(power_product)-progress_bar_last_value))
                 progress_bar_last_value=math.log2(power_product)
 
             if power_product>order:
@@ -210,6 +211,7 @@ def bruteforce_sign_crt(crt_system_equations: List[tuple[int,int]], G:PointWeirs
     # quand on a x**2, on peut facilement retrouver x mais cela demande que le produit des facteur premiers soit superieur à 2**512
     # Pas sur que ce soit vraiment ... ca va demander beaucoup plus de calculs pour la partie bruteforce AES
     # https://mathoverflow.net/questions/437758/modular-square-roots-problem-which-is-np-hard/451893#451893
+    # Commentaire super interressant dans les solutions (la 1ère)
 
     iv, message_cipher = key_exchange_attack(G, interface)
 
@@ -239,20 +241,24 @@ if __name__ == "__main__":
     curve = WeierStrass(a,b,p)
     G = PointWeirstrass(curve, 48439561293906451759052585252797914202762949526041747995844080717082404635286,36134250956749795798585127919587881956611106672985015071877198253568414405109)
     challenge = Challenge(curve, G)
+
     logging.info(f"private_key: {challenge.server.secret}")
 
     # ================== Génération des courbes vulnérables ===============
-
+    logging.info(f"\n=============Curves generation ================")
     # on une limite min pour ne pas avoir à bruteforce un système CRT trop complexe à la fin (on aura toujours k ou -k possible)
     # donc éliminer les nombres premiers trop petits permet de s'assurer que le brutefroce du CRT à la fin ne sera pas trop gourmand 
     # si 15 nombre premiers 2**15 systmes du CRT possibles si 20 2**20 etc ..
     primes_curves, b_primes=generate_invalid_curves(a,p,order,min_order_bruteforce=5000, max_order_bruteforce=5000000, bmax=50)
     
     # ================== Bruteforce des sous groupes et attaque sur ECDH ===============
+    logging.info(f"\n============= ECDH exchanges and AES bruteforce==============")
+
     message_uncipher = b"SERVER_TEST_MESSAGE"
     crt_system_equations = bruteforce_aes(b_primes, primes_curves, message_uncipher, interface=challenge.challenge)
 
     # ================== Bruteforce des signes du système d'équations ===============
+    logging.info(f"\n=========== Bruteforce CRT equations system signs ======")
     solution = bruteforce_sign_crt(crt_system_equations, G, message_uncipher, order, interface=challenge.challenge)
     logging.info(f"solution:{solution}")
 

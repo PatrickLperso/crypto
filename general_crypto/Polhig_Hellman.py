@@ -24,8 +24,8 @@ def brute_force(P:PointWeirstrass, Q:PointWeirstrass, number_possibilities:int):
 def random_function(X_i:PointWeirstrass, a:int, b:int, P:PointWeirstrass, Q:PointWeirstrass, order:int):
     if not X_i.infinity:
         X_i_mod_3 = X_i.x%3
-    else: # Permet d'avoir de l'aléatoire en cas de solution non inversible
-         X_i_mod_3=rd.randint(0,2)
+    else: 
+         X_i_mod_3=1
 
     if X_i_mod_3==0:
         return  2*X_i, (2*a)%order,(2*b)%order
@@ -146,7 +146,7 @@ def pollard_rho(P:PointWeirstrass, Q:PointWeirstrass, order:int, reprise_file:bo
     logging.info(f"nombre iterations : {k}, order : {order}")
     return a
 
-def polhig_hellman(P:PointWeirstrass, Q:PointWeirstrass, order:int, order_prime_decomposition:List[tuple[int,int]], fast:bool = False,list_prime_avoid:list[int]=[], reprise=True):
+def polhig_hellman(P:PointWeirstrass, Q:PointWeirstrass, order:int, order_prime_decomposition:List[tuple[int,int]], fast:bool = False,list_prime_avoid:list[int]=[]):
     # =========================== Computing a of Q=aP of a weak curve ==========================
     # ===== Based on https://www.hyperelliptic.org/tanja/teaching/crypto22/20220927-ph.pdf =====
     # ==================== And https://risencrypto.github.io/PohligHellman/ ====================
@@ -184,11 +184,10 @@ def polhig_hellman(P:PointWeirstrass, Q:PointWeirstrass, order:int, order_prime_
 
                 # on cherche a_i_j tel que S_i=a_i_j*R_i
                 #a_i_j = brute_force(R_i, S_i, p_i) 
-                
-                if p_i<100:
+                if p_i < 100 :
                     a_i_j = brute_force(R_i, S_i, p_i) 
                 else:
-                    if p_i>10**11 and reprise:
+                    if p_i>10**11:
                         save_progress=True
                         reprise_file=True
                     else:
@@ -199,8 +198,7 @@ def polhig_hellman(P:PointWeirstrass, Q:PointWeirstrass, order:int, order_prime_
                         a_i_j = pollard_rho(R_i, S_i, p_i, reprise_file=reprise_file, save_progress=save_progress)
                 a_i +=a_i_j*p_i**j
 
-            # attention originellment a_i_list.append(a_i)
-            a_i_list.append(a_i%(p_i**power))
+            a_i_list.append(a_i)
     
     crt_system_equations = list(zip(a_i_list,list(map(lambda x:x[0]**x[1],order_prime_decomposition))))
     if list_prime_avoid:
@@ -218,8 +216,8 @@ if __name__ == "__main__":
     
     # #======== Test BruteForce ==========
     P=PointWeirstrass(curve1, 4023,6036)
-    Z=50*P
-    assert 50==brute_force(P,Z,7919-1)
+    Z=2000*P
+    assert 2000==brute_force(P,Z,order_curve)
     del P
 
     # #========= Test Pollard ============
