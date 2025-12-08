@@ -1,0 +1,12 @@
+checkpoint => invalid curve attack ECDH, pas de check si le point appartient à la courbe
+smooth criminal => pohlig hellman
+exceptionnal curve => anomalous curve
+
+
+>>> key=15
+>>> message="Tu quoque mi fili"
+
+
+side channels github https://github.com/J08nY/cwnano-micro-ecc
+
+
