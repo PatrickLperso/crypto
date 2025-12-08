@@ -146,7 +146,7 @@ def pollard_rho(P:PointWeirstrass, Q:PointWeirstrass, order:int, reprise_file:bo
     logging.info(f"nombre iterations : {k}, order : {order}")
     return a
 
-def polhig_hellman(P:PointWeirstrass, Q:PointWeirstrass, order:int, order_prime_decomposition:List[tuple[int,int]], fast:bool = False,list_prime_avoid:list[int]=[]):
+def polhig_hellman(P:PointWeirstrass, Q:PointWeirstrass, order:int, order_prime_decomposition:List[tuple[int,int]], fast:bool = False,list_prime_avoid:list[int]=[], reprise=True):
     # =========================== Computing a of Q=aP of a weak curve ==========================
     # ===== Based on https://www.hyperelliptic.org/tanja/teaching/crypto22/20220927-ph.pdf =====
     # ==================== And https://risencrypto.github.io/PohligHellman/ ====================
@@ -188,7 +188,7 @@ def polhig_hellman(P:PointWeirstrass, Q:PointWeirstrass, order:int, order_prime_
                 if p_i<100:
                     a_i_j = brute_force(R_i, S_i, p_i) 
                 else:
-                    if p_i>10**11:
+                    if p_i>10**11 and reprise:
                         save_progress=True
                         reprise_file=True
                     else:
@@ -199,7 +199,8 @@ def polhig_hellman(P:PointWeirstrass, Q:PointWeirstrass, order:int, order_prime_
                         a_i_j = pollard_rho(R_i, S_i, p_i, reprise_file=reprise_file, save_progress=save_progress)
                 a_i +=a_i_j*p_i**j
 
-            a_i_list.append(a_i)
+            # attention originellment a_i_list.append(a_i)
+            a_i_list.append(a_i%(p_i**power))
     
     crt_system_equations = list(zip(a_i_list,list(map(lambda x:x[0]**x[1],order_prime_decomposition))))
     if list_prime_avoid:

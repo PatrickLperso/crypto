@@ -10,3 +10,92 @@ exceptionnal curve => anomalous curve
 side channels github https://github.com/J08nY/cwnano-micro-ecc
 
 
+# Setup fields
+p  = 2^127-1
+d  = -1 # non square in the field
+a  = -3
+b  = 2045
+
+
+K  = GF(p)
+K2 = GF(p^2)
+
+# this curve has prime order, but a 2^44-smooth twist
+
+E  = EllipticCurve(K, [a, b])
+Et = EllipticCurve(K, [d^2*a, d^3*b])
+E2 = EllipticCurve(K2, [a, b])
+
+# precompute orders
+print (E.order().factor());
+print (Et.order().factor());
+print (E2.order().factor());
+
+
+
+
+# Setup fields
+p  = 2^127-1
+a  = -3
+b  = 152961
+
+
+K  = GF(p)
+K2 = GF(p^2)
+
+# this curve has prime order, but a 2^44-smooth twist
+
+E  = EllipticCurve(K, [a, b])
+E2 = EllipticCurve(K2, [a, b])
+
+# precompute orders
+print (E.order().factor()); # 3^2 * 691 * 4561 * 97783378843201 * 61342826100301621
+print (E2.order().factor()); # 3^2 * 31 * 41 * 113 * 131 * 383 * 691 * 4561 * 6827 * 136199426119 * 25392777376871 * 97783378843201 * 61342826100301621
+ 
+Note : 
+sage: 13407807929942597099574024998205846127479365820592393377723561443721764030029777567070168776296793595356747829017949996650141749605031603191442486002224009.factor()
+115792089237316195423570985008687907853269984665640564039457584007913129639747^2
+
+
+
+from itertools import product
+
+# -------------------------------
+# 3. Brute-force 2**19 combinaisons
+# -------------------------------
+def brute_force_crt(equations):
+    rema = [r for r, m in equations]
+    modu = [m for r, m in equations]
+
+    n = len(equations)
+    print(f"Bruteforcing {2**n} combinaisons...")
+
+    for signs in product([1, -1], repeat=n):
+        # Construire les restes R_i (sign * r_i mod m_i)
+        chosen_rema = []
+        for (r, m), s in zip(equations, signs):
+            if s == 1:
+                chosen_rema.append(r % m)
+            else:
+                chosen_rema.append((-r) % m)
+
+        # Calcul CRT
+        d = crt(chosen_rema, modu)
+
+        # -------------------------
+        # ICI tu testes si c'est le bon d
+        # -------------------------
+        # Exemples :
+        # if test_AES_key(d): return d
+        # if check_flag(d): return d
+        # print(d) pour debug
+
+        print(d)  # TEMPORAIRE just pour montrer que ça tourne
+
+    return None
+
+
+# -------------------------------
+# 4. Run
+# -------------------------------
+brute_force_crt(crt_system_equations)

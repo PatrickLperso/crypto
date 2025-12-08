@@ -53,8 +53,8 @@ class WeierStrass(ElipticCurve):
 
         self.discriminant = -16 * (4 * a**3 + 27 * b**2) %p
 
-        if not self.isSmooth() and self.secure:
-            raise Exception("The curve is not smooth!")
+        if not self.isSingular() and self.secure:
+            raise Exception("The curve is singular")
     
     def __str__(self):
         return f"y^2 = x^3 + {self.a}x + {self.b} mod({self.p})"
@@ -62,7 +62,7 @@ class WeierStrass(ElipticCurve):
     def __eq__(self, other):
         return (self.a, self.b, self.p) == (other.a, other.b, other.p)
 
-    def isSmooth(self):
+    def isSingular(self):
         return self.discriminant != 0
 
     def testPoint(self, P):
