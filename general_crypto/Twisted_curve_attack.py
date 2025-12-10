@@ -99,7 +99,7 @@ def break_curve(a:int,b:int,p:int,interface,scalar:int=None,limit_prime_pohlig:i
 
     Q = curve_weirstrass.point_from_x((x_scalar_weirstrass)%p) 
 
-    crt_system_equations=polhig_hellman(G_weirstrass, Q, int(order), prime_decomposition, fast=True, list_prime_avoid=list_prime_avoid, reprise=False)
+    crt_system_equations=polhig_hellman(G_weirstrass, Q, int(order), prime_decomposition, fast=True, list_prime_avoid=list_prime_avoid)
     return G_weirstrass, x_scalar_weirstrass, crt_system_equations
 
 def break_twist(a:int,b:int,p:int,interface,scalar:int=None,limit_prime_pohlig:int=10**13):

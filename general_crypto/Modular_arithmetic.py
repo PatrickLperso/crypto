@@ -2,6 +2,7 @@ from itertools import combinations
 from functools import reduce
 from typing import List, Tuple
 
+
 # Donne la solution à un système d'équations avec diffèrents modulo si les modulos ont coprimes entre eux
 
 def extended_euclidian(a:int,b:int):
