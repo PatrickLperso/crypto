@@ -8,7 +8,7 @@ import os,sys
 
 # Ajout du répertoire eliptic curve
 sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "general_crypto"))
-
+# modif 
 from Modular_arithmetic import pgcd
 
 if __name__ == "__main__":
