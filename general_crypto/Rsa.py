@@ -40,7 +40,7 @@ class Rsa_privatekey():
 
     def sign(self, message:str):
         try:
-            digest = bytes_to_long(sha256(message.encode()).digest())
+            digest = bytes_to_long(sha256(message.encode()).digest())0
             return long_to_bytes(pow(digest, self.d, self.N)).hex()
         except:
             raise Exception("Something went wrong")

@@ -1,0 +1,1491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="1">
+        <Placemark id="3">
+            <name>МегаФон</name>
+            <description>ОАО «Мегафон»&lt;br /&gt;
+&lt;a href=&quot;http://ОАО «Мегафон»&quot; target=&quot;_blank&quot;&gt;ОАО «Мегафон»&lt;/a&gt;
+-
+Сибирский тракт, 34, корп. 4
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/kazan&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Казань&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;
+</description>
+            <Point id="2">
+                <coordinates>49.183923,55.816968,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="5">
+            <name>ИТ-парк</name>
+            <description>ГАУ «ИТ-парк»&lt;br /&gt;
+-
+Казань ул. Петербургская, 52
+&lt;a href=&quot;http://telecombloger.ru/11170&quot; target=&quot;_blank&quot;&gt;Фото-экскурсия&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/kazan&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Казань&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;
+</description>
+            <Point id="4">
+                <coordinates>49.133453,55.780495,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="7">
+            <name>Мегафон</name>
+            <description>ОАО «Мегафон»&lt;br /&gt;
+&lt;a href=&quot;http://ОАО «Мегафон»&quot; target=&quot;_blank&quot;&gt;ОАО «Мегафон»&lt;/a&gt;
+-
+Научный проезд, д. 20.
+&lt;a target=&quot;_blank&quot;&gt;Фото-экскурсия&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;
+</description>
+            <Point id="6">
+                <coordinates>50.199137,53.244414,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="9">
+            <name>ПортТелеком</name>
+            <description>«ПортТелеком»&lt;br /&gt;
+&lt;a href=&quot;http://«ПортТелеком»&quot; target=&quot;_blank&quot;&gt;«ПортТелеком»&lt;/a&gt;
++7 (4232) 496-000
+ул. Стрельникова, 9
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="8">
+                <coordinates>131.865533,43.097559,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="11">
+            <name>Тольятти Телеком</name>
+            <description>ЗАО «Тольятти Телеком»&lt;br /&gt;
+&lt;a href=&quot;http://ЗАО «Тольятти Телеком»&quot; target=&quot;_blank&quot;&gt;ЗАО «Тольятти Телеком»&lt;/a&gt;
++ 7 (8482) 42-07-40
+ул. Свердлова д. 51
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="10">
+                <coordinates>49.285174,53.528309,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="13">
+            <name>Ростелеком</name>
+            <description>ОАО «Ростелеком»&lt;br /&gt;
+&lt;a href=&quot;http://ОАО «Ростелеком»&quot; target=&quot;_blank&quot;&gt;ОАО «Ростелеком»&lt;/a&gt;
++7 (846) 278-0116
+ул. Можайского, д.6
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="12">
+                <coordinates>49.03119,55.823991,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="15">
+            <name>Ростелеком</name>
+            <description>ОАО «Ростелеком»&lt;br /&gt;
+&lt;a href=&quot;http://ОАО «Ростелеком»&quot; target=&quot;_blank&quot;&gt;ОАО «Ростелеком»&lt;/a&gt;
++7 (4212) 75-22-56
+ул. Тихоокеанская, 181
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="14">
+                <coordinates>135.044717,48.541031,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="17">
+            <name>Новоком</name>
+            <description>ЗАО «Новоком»&lt;br /&gt;
+&lt;a href=&quot;http://ЗАО «Новоком»&quot; target=&quot;_blank&quot;&gt;ЗАО «Новоком»&lt;/a&gt;
++ 7 (383) 2-120-900
+ул. Октябрьская, 17
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/nsk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Новосибирска&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;
+</description>
+            <Point id="16">
+                <coordinates>82.916712,55.024447,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="19">
+            <name>Ростелеком</name>
+            <description>ОАО «Ростелеком»&lt;br /&gt;
+&lt;a href=&quot;http://ОАО «Ростелеком»&quot; target=&quot;_blank&quot;&gt;ОАО «Ростелеком»&lt;/a&gt;
++ 7 (383) 2-200-304
+ул. 2-я Союза Молодежи, 33/1
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/nsk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Новосибирска&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;
+</description>
+            <Point id="18">
+                <coordinates>82.898496,55.055825,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="21">
+            <name>Сибирьтелеком</name>
+            <description>ОАО «Сибирьтелеком»&lt;br /&gt;
+&lt;a href=&quot;http://ОАО «Сибирьтелеком»&quot; target=&quot;_blank&quot;&gt;ОАО «Сибирьтелеком»&lt;/a&gt;
++7 (383) 2-235-445
+ул. Менделеева, 1
+&lt;a href=&quot;http://telecombloger.ru/1207&quot; target=&quot;_blank&quot;&gt;Фото-экскурсия&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/nsk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Новосибирска&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="20">
+                <coordinates>82.960055,55.073262,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="23">
+            <name>Северен-Волга</name>
+            <description>ЗАО «Северен-Волга»&lt;br /&gt;
+&lt;a href=&quot;http://ЗАО «Северен-Волга»&quot; target=&quot;_blank&quot;&gt;ЗАО «Северен-Волга»&lt;/a&gt;
++7 (846) 373-0775
+ул.Аэродромная, 45.
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/smra&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Самары&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="22">
+                <coordinates>50.187541,53.190573,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="25">
+            <name>Бит-Телеком</name>
+            <description>ООО «Бит-Телеком»&lt;br /&gt;
+&lt;a href=&quot;http://ООО «Бит-Телеком»&quot; target=&quot;_blank&quot;&gt;ООО «Бит-Телеком»&lt;/a&gt;
++7 (342) 211-4444
+Большевистская,31
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="24">
+                <coordinates>56.258694,58.013903,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="27">
+            <name>DataHouse.ru &quot;Красноярск&quot;</name>
+            <description>ООО «Филанко-Сибирь»&lt;br /&gt;
+&lt;a href=&quot;http://ООО «Филанко-Сибирь»&quot; target=&quot;_blank&quot;&gt;ООО «Филанко-Сибирь»&lt;/a&gt;
++7 (800) 200-0542
+Телевизорный пер., дом 6г.
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;
+</description>
+            <Point id="26">
+                <coordinates>92.792901,56.027061,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="29">
+            <name>КрасИнформ</name>
+            <description>ЗАО «КрасИнформ»&lt;br /&gt;
+&lt;a href=&quot;http://ЗАО «КрасИнформ»&quot; target=&quot;_blank&quot;&gt;ЗАО «КрасИнформ»&lt;/a&gt;
++7 (391) 256-8087
+ул. Парижской Коммуны, 41
+
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="28">
+                <coordinates>92.880359,56.017169,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="31">
+            <name>Миран</name>
+            <description> ТК «Миран»&lt;br /&gt;
+&lt;a href=&quot;http:// ТК «Миран»&quot; target=&quot;_blank&quot;&gt; ТК «Миран»&lt;/a&gt;
++7 (812) 320-4918
+Пироговская наб., д. 17, корп. 7
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="30">
+                <coordinates>30.338358,59.963707,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="33">
+            <name>Горелово</name>
+            <description> OOО «Горелово Дата Центр»&lt;br /&gt;
+&lt;a href=&quot;http:// OOО «Горелово Дата Центр»&quot; target=&quot;_blank&quot;&gt; OOО «Горелово Дата Центр»&lt;/a&gt;
++7 (812)
+Волхонское шоссе, 11
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="32">
+                <coordinates>30.075317,59.827215,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="35">
+            <name>Дата-центр Биржи</name>
+            <description>ЗАО «БИРЖА «Санкт-Петербург»&lt;br /&gt;
+&lt;a href=&quot;http://ЗАО «БИРЖА «Санкт-Петербург»&quot; target=&quot;_blank&quot;&gt;ЗАО «БИРЖА «Санкт-Петербург»&lt;/a&gt;
++7 (812) 322-73-90
+В.О., 26-я линия, дом 15.
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="34">
+                <coordinates>30.256822,59.932915,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="37">
+            <name>IO-HOSTS</name>
+            <description>ООО «Информационная группа «Кросс-Медиа»&lt;br /&gt;
+&lt;a href=&quot;http://ООО «Информационная группа «Кросс-Медиа»&quot; target=&quot;_blank&quot;&gt;ООО «Информационная группа «Кросс-Медиа»&lt;/a&gt;
++7 (812) 331-7181
+11-я линия В.О., 64, лит.«д».
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="36">
+                <coordinates>30.268406,59.945707,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="39">
+            <name>Комстар-ОТС</name>
+            <description>ОАО «КОМСТАР – ОТС»&lt;br /&gt;
+&lt;a href=&quot;http://ОАО «КОМСТАР – ОТС»&quot; target=&quot;_blank&quot;&gt;ОАО «КОМСТАР – ОТС»&lt;/a&gt;
++7 (812) 718-8001
+Октябрьская набережная, 6
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="38">
+                <coordinates>30.416763,59.914211,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="41">
+            <name>Радуга-2</name>
+            <description>«Радуга-2»&lt;br /&gt;
+&lt;a href=&quot;http://«Радуга-2»&quot; target=&quot;_blank&quot;&gt;«Радуга-2»&lt;/a&gt;
++7 (812) 605-0044
+Кантемировский ул., 12
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;
+</description>
+            <Point id="40">
+                <coordinates>30.33098,59.983871,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="43">
+            <name>ФГУП РС СП</name>
+            <description>ФГУП «Радиотрансляционная сеть Санкт-Петербурга»&lt;br /&gt;
+&lt;a href=&quot;http://ФГУП «Радиотрансляционная сеть Санкт-Петербурга»&quot; target=&quot;_blank&quot;&gt;ФГУП «Радиотрансляционная сеть Санкт-Петербурга»&lt;/a&gt;
++7 (812) 272-8028
+Большая Морская дом 18
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="42">
+                <coordinates>30.316402,59.934778,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="45">
+            <name>Oyster Telecom</name>
+            <description>«Объединённые сети»&lt;br /&gt;
+&lt;a href=&quot;http://«Объединённые сети»&quot; target=&quot;_blank&quot;&gt;«Объединённые сети»&lt;/a&gt;
++7 (812) 601-0666
+ул. Большая Морская, д.19
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="44">
+                <coordinates>30.314728,59.934663,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="47">
+            <name>Фортис</name>
+            <description>ООО «Фортис»&lt;br /&gt;
+&lt;a href=&quot;http://ООО «Фортис»&quot; target=&quot;_blank&quot;&gt;ООО «Фортис»&lt;/a&gt;
++7 (812) 326-6999
+3-й Рыбацкий проезд, 3
+&lt;a href=&quot;http://telecombloger.ru/3250&quot; target=&quot;_blank&quot;&gt;Фото-экскурсия&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="46">
+                <coordinates>30.496469,59.824818,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="49">
+            <name>Невалинк-ЦОД</name>
+            <description>ООО «Невалинк»&lt;br /&gt;
+&lt;a href=&quot;http://ООО «Невалинк»&quot; target=&quot;_blank&quot;&gt;ООО «Невалинк»&lt;/a&gt;
++7 (812) 601-0700
+пр-т Луначарского 64
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="48">
+                <coordinates>30.348477,60.040161,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="51">
+            <name>Прометей</name>
+            <description>ООО «Прометей»&lt;br /&gt;
+&lt;a href=&quot;http://ООО «Прометей»&quot; target=&quot;_blank&quot;&gt;ООО «Прометей»&lt;/a&gt;
++7 (812) 313-8818
+ул. Введенского канала, д. 4
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="50">
+                <coordinates>30.324304,59.921759,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="53">
+            <name>IT-Depo</name>
+            <description>ООО «Дженерал ДейтаКомм»&lt;br /&gt;
+&lt;a href=&quot;http://ООО «Дженерал ДейтаКомм»&quot; target=&quot;_blank&quot;&gt;ООО «Дженерал ДейтаКомм»&lt;/a&gt;
++7 (812) 325-1085
+ул. Седова, д. 11, лит.Б
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="52">
+                <coordinates>30.399618,59.900293,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="55">
+            <name>Dataцентр Сател</name>
+            <description>ООО «ПиН Телеком»&lt;br /&gt;
+&lt;a href=&quot;http://ООО «ПиН Телеком»&quot; target=&quot;_blank&quot;&gt;ООО «ПиН Телеком»&lt;/a&gt;
++7 (812) 703-3773
+Полюстровский пр., 32
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="54">
+                <coordinates>30.38829,59.968282,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="57">
+            <name>SPBIX</name>
+            <description>ООО «ТелеХаус»&lt;br /&gt;
+&lt;a href=&quot;http://ООО «ТелеХаус»&quot; target=&quot;_blank&quot;&gt;ООО «ТелеХаус»&lt;/a&gt;
++7 (812) 601-0681
+Большая Морская дом 18
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;
+</description>
+            <Point id="56">
+                <coordinates>30.316122,59.93469,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="59">
+            <name>Дата-центр на Цветочной</name>
+            <description>ООО «Сеть дата-центров «Селектел»&lt;br /&gt;
+&lt;a href=&quot;http://ООО «Сеть дата-центров «Селектел»&quot; target=&quot;_blank&quot;&gt;ООО «Сеть дата-центров «Селектел»&lt;/a&gt;
++7 (812) 718-8036
+ул. Цветочная д.19
+&lt;a href=&quot;http://telecombloger.ru/508&quot; target=&quot;_blank&quot;&gt;Фото-экскурсия&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="58">
+                <coordinates>30.32939,59.886478,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="61">
+            <name>Дата-центр на Васильевском Острове</name>
+            <description>ООО «Сеть дата-центров «Селектел»&lt;br /&gt;
+&lt;a href=&quot;http://ООО «Сеть дата-центров «Селектел»&quot; target=&quot;_blank&quot;&gt;ООО «Сеть дата-центров «Селектел»&lt;/a&gt;
++7 (812) 718-8036
+Косая линия д. 16 корп. 30 лит. А
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="60">
+                <coordinates>30.26218,59.931302,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="63">
+            <name>Политехнический</name>
+            <description>ООО «Объединенный Телеком»&lt;br /&gt;
+&lt;a href=&quot;http://ООО «Объединенный Телеком»&quot; target=&quot;_blank&quot;&gt;ООО «Объединенный Телеком»&lt;/a&gt;
++7 (812) 579-9208
+2-й Муринский пр. д.49
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="62">
+                <coordinates>30.358506,59.998432,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="65">
+            <name>WestCall</name>
+            <description>ЗАО «ВЕСТ КОЛЛ ЛТД»&lt;br /&gt;
+&lt;a href=&quot;http://ЗАО «ВЕСТ КОЛЛ ЛТД»&quot; target=&quot;_blank&quot;&gt;ЗАО «ВЕСТ КОЛЛ ЛТД»&lt;/a&gt;
++7 (812) 647-0011
+Галерный проезд, д.3
+&lt;a href=&quot;http://telecombloger.ru/1461&quot; target=&quot;_blank&quot;&gt;Фото-экскурсия&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;
+</description>
+            <Point id="64">
+                <coordinates>30.226289,59.936949,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="67">
+            <name>Tieto</name>
+            <description>TietoEnator&lt;br /&gt;
+&lt;a href=&quot;http://TietoEnator&quot; target=&quot;_blank&quot;&gt;TietoEnator&lt;/a&gt;
++7 (812) 334-7630
+ул. Одоевского, д.6
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="66">
+                <coordinates>30.246927,59.949882,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="69">
+            <name>Элтел</name>
+            <description>ЗАО «Элтел»&lt;br /&gt;
+&lt;a href=&quot;http://ЗАО «Элтел»&quot; target=&quot;_blank&quot;&gt;ЗАО «Элтел»&lt;/a&gt;
++7 (812) 438-1011
+пр. Полюстровский, д. 59
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;
+</description>
+            <Point id="68">
+                <coordinates>30.382343,59.972089,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="71">
+            <name>IT Sарай</name>
+            <description>IT Sарай
+&lt;br /&gt;
+&lt;a href=&quot;http://&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt;
++7 (812) 454-1622
+23-я линия В.О., д. 2
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="70">
+                <coordinates>30.268027,59.927691,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="73">
+            <name>DataHouse.ru &quot;Санкт-Петербург&quot;</name>
+            <description>ООО «Филанко»&lt;br /&gt;
+&lt;a href=&quot;http://ООО «Филанко»&quot; target=&quot;_blank&quot;&gt;ООО «Филанко»&lt;/a&gt;
++7 (812) 313-6502
+ул. Лифляндская д 3
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="72">
+                <coordinates>30.261723,59.906934,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="75">
+            <name>РЕЛКОМ-СПб</name>
+            <description>ООО «РЕЛКОМ-СПб»&lt;br /&gt;
+&lt;a href=&quot;http://ООО «РЕЛКОМ-СПб»&quot; target=&quot;_blank&quot;&gt;ООО «РЕЛКОМ-СПб»&lt;/a&gt;
++7 (812) 578-0910
+ ул. Зайцева, дом 41.
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="74">
+                <coordinates>30.275065,59.879941,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="77">
+            <name>РЕЛКОМ-СПб</name>
+            <description>ООО «РЕЛКОМ-СПб»&lt;br /&gt;
+&lt;a href=&quot;http://ООО «РЕЛКОМ-СПб»&quot; target=&quot;_blank&quot;&gt;ООО «РЕЛКОМ-СПб»&lt;/a&gt;
++7 (812) 578-0910
+ул. Боровая, дом 57
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="76">
+                <coordinates>30.340017,59.910469,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="79">
+            <name>INFOBOX</name>
+            <description>ЗАО «Национальные телекоммуникации»&lt;br /&gt;
+&lt;a href=&quot;http://ЗАО «Национальные телекоммуникации»&quot; target=&quot;_blank&quot;&gt;ЗАО «Национальные телекоммуникации»&lt;/a&gt;
++7 (812) 331 -2999
+ул. Самойловой, д.5
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="78">
+                <coordinates>30.374485,59.901506,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="81">
+            <name>NODEX</name>
+            <description>ООО «НОДЭКС»&lt;br /&gt;
+&lt;a href=&quot;http://ООО «НОДЭКС»&quot; target=&quot;_blank&quot;&gt;ООО «НОДЭКС»&lt;/a&gt;
++7 (812) 326-1299
+ул. Большая Пушкарская, д. 20, 5 этаж
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="80">
+                <coordinates>30.298998,59.956041,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="83">
+            <name>S10</name>
+            <description>ЗАО «ПЕТЕР-СЕРВИС»&lt;br /&gt;
+&lt;a href=&quot;http://ЗАО «ПЕТЕР-СЕРВИС»&quot; target=&quot;_blank&quot;&gt;ЗАО «ПЕТЕР-СЕРВИС»&lt;/a&gt;
++7 (812) 326-1299
+ул. Свеаборгская д.10
+&lt;a href=&quot;http://telecombloger.ru/226&quot; target=&quot;_blank&quot;&gt;Фото-экскурсия&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="82">
+                <coordinates>30.330619,59.873803,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="85">
+            <name>ПетерСтар</name>
+            <description>ЗАО «ПетерСтар»&lt;br /&gt;
+&lt;a href=&quot;http://ЗАО «ПетерСтар»&quot; target=&quot;_blank&quot;&gt;ЗАО «ПетерСтар»&lt;/a&gt;
++7 (812) 329-9090
+16 линия В.О. д. 31
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;
+</description>
+            <Point id="84">
+                <coordinates>30.267811,59.938188,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="87">
+            <name>ЗЕНОН Н.С.П.</name>
+            <description>ООО «ЗЕНОН Н.С.П.»&lt;br /&gt;
+&lt;a href=&quot;http://ООО «ЗЕНОН Н.С.П.»&quot; target=&quot;_blank&quot;&gt;ООО «ЗЕНОН Н.С.П.»&lt;/a&gt;
++7 (495) 956-4035
+1-я улица Ямского поля, д. 19, стр. 1
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="86">
+                <coordinates>37.584113,55.782594,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="89">
+            <name>.masterhost</name>
+            <description>ЗАО «МАСТЕРХОСТ»&lt;br /&gt;
+&lt;a href=&quot;http://ЗАО «МАСТЕРХОСТ»&quot; target=&quot;_blank&quot;&gt;ЗАО «МАСТЕРХОСТ»&lt;/a&gt;
++7 (495) 772-9720
+Алтуфьевское шоссе, дом 37, корпус 1
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="88">
+                <coordinates>37.575282,55.867353,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="91">
+            <name>Макомнет</name>
+            <description>ЗАО «Макомнет» &lt;br /&gt;
+&lt;a href=&quot;http://ЗАО «Макомнет» &quot; target=&quot;_blank&quot;&gt;ЗАО «Макомнет» &lt;/a&gt;
++7 (495) 796-9400
+Проспект Мира, дом 41
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="90">
+                <coordinates>37.6329,55.781187,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="93">
+            <name>ТМК Телехаус</name>
+            <description>ЗАО «ТМК-Телехаус»&lt;br /&gt;
+&lt;a href=&quot;http://ЗАО «ТМК-Телехаус»&quot; target=&quot;_blank&quot;&gt;ЗАО «ТМК-Телехаус»&lt;/a&gt;
++7 (495) 790-7807
+ул. Тестовская, 10. ММДЦ «Северная Башня»
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="92">
+                <coordinates>37.532651,55.751768,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="95">
+            <name>ГлобаТел</name>
+            <description>ООО «ГлобаТел»&lt;br /&gt;
+&lt;a href=&quot;http://ООО «ГлобаТел»&quot; target=&quot;_blank&quot;&gt;ООО «ГлобаТел»&lt;/a&gt;
++7 (495) 706-4949
+Жулебинский б-р д.36 к.3
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="94">
+                <coordinates>37.849207,55.683841,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="97">
+            <name>Demos</name>
+            <description>ЗАО «ДЕМОС-ИНТЕРНЕТ» &lt;br /&gt;
+&lt;a href=&quot;http://ЗАО «ДЕМОС-ИНТЕРНЕТ» &quot; target=&quot;_blank&quot;&gt;ЗАО «ДЕМОС-ИНТЕРНЕТ» &lt;/a&gt;
++7 (495)737-0400
+ул. Профсоюзная, 84/32.  Здание Института космических исследований РАН
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="96">
+                <coordinates>37.533531,55.65438,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="99">
+            <name>MSKdata</name>
+            <description>MSKdata&lt;br /&gt;
+&lt;a href=&quot;http://MSKdata&quot; target=&quot;_blank&quot;&gt;MSKdata&lt;/a&gt;
++7(495) 640-3663
+Варшавское шоссе, д. 125, стр. 1
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="98">
+                <coordinates>37.622028,55.63134,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="101">
+            <name>Яр-ТТ</name>
+            <description>ЯрТранзитТелеком&lt;br /&gt;
+&lt;a href=&quot;http://ЯрТранзитТелеком&quot; target=&quot;_blank&quot;&gt;ЯрТранзитТелеком&lt;/a&gt;
++7 (4852) 72-62-71
+г. Ярославль, ул. Победы 16 Б
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;
+</description>
+            <Point id="100">
+                <coordinates>39.876402,57.636758,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="103">
+            <name>ТехноГород</name>
+            <description>ООО «ТехноГород»&lt;br /&gt;
+&lt;a href=&quot;http://ООО «ТехноГород»&quot; target=&quot;_blank&quot;&gt;ООО «ТехноГород»&lt;/a&gt;
++7 (495) 782-6100
+3-й пр-д Марьиной Рощи, д. 40, стр. 1
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="102">
+                <coordinates>37.609611,55.796455,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="105">
+            <name>Оверсан-Луна</name>
+            <description>«Оверсан-Меркурий»&lt;br /&gt;
+&lt;a href=&quot;http://«Оверсан-Меркурий»&quot; target=&quot;_blank&quot;&gt;«Оверсан-Меркурий»&lt;/a&gt;
++7 (495) 544-5969
+ул. Авиамоторная, д.53
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="104">
+                <coordinates>37.722462,55.744851,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="107">
+            <name>КЦОД Астерос</name>
+            <description>ЗАО «Астерос»&lt;br /&gt;
+&lt;a href=&quot;http://ЗАО «Астерос»&quot; target=&quot;_blank&quot;&gt;ЗАО «Астерос»&lt;/a&gt;
++7 (495) 787-2450
+ул. Дмитрия Ульянова д.7А
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="106">
+                <coordinates>37.564496,55.691838,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="109">
+            <name>Avelacom</name>
+            <description>«Авелаком»&lt;br /&gt;
+&lt;a href=&quot;http://«Авелаком»&quot; target=&quot;_blank&quot;&gt;«Авелаком»&lt;/a&gt;
++7 (495) 777-0301
+ул. Смольная, д. 14
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="108">
+                <coordinates>37.495429,55.850701,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="111">
+            <name>Транслайнком</name>
+            <description>«Транслайнком»&lt;br /&gt;
+&lt;a href=&quot;http://«Транслайнком»&quot; target=&quot;_blank&quot;&gt;«Транслайнком»&lt;/a&gt;
++7(495) 741-0055
+ул. Боровая д.7
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;
+</description>
+            <Point id="110">
+                <coordinates>37.716851,55.769706,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="113">
+            <name>TEL Hosting</name>
+            <description>ТК «ТЕЛ»&lt;br /&gt;
+&lt;a href=&quot;http://ТК «ТЕЛ»&quot; target=&quot;_blank&quot;&gt;ТК «ТЕЛ»&lt;/a&gt;
++7 (495) 787-4200
+ул. Электрозаводская, д. 24
+&lt;a href=&quot;http://telecombloger.ru/5952&quot; target=&quot;_blank&quot;&gt;Фото-экскурсия&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="112">
+                <coordinates>37.707634,55.788873,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="115">
+            <name>Аутсорсинговый центр КРОК</name>
+            <description>«КРОК»&lt;br /&gt;
+&lt;a href=&quot;http://«КРОК»&quot; target=&quot;_blank&quot;&gt;«КРОК»&lt;/a&gt;
++7 (495) 974-2274
+ул. Волочаевская д.5 корп. 1
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="114">
+                <coordinates>37.681471,55.753622,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="117">
+            <name>IBS DataFort</name>
+            <description>ООО «ИБС ДатаФорт»&lt;br /&gt;
+&lt;a href=&quot;http://ООО «ИБС ДатаФорт»&quot; target=&quot;_blank&quot;&gt;ООО «ИБС ДатаФорт»&lt;/a&gt;
++7 (495) 967-8080
+ул.8 Марта, д.14
+&lt;a href=&quot;http://telecombloger.ru/123&quot; target=&quot;_blank&quot;&gt;Фото-экскурсия&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;
+</description>
+            <Point id="116">
+                <coordinates>37.549718,55.806309,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="119">
+            <name>Дата-центр Селектел на ул. Берзарина</name>
+            <description>ООО «Сеть дата-центров «Селектел»&lt;br /&gt;
+&lt;a href=&quot;http://ООО «Сеть дата-центров «Селектел»&quot; target=&quot;_blank&quot;&gt;ООО «Сеть дата-центров «Селектел»&lt;/a&gt;
++7 (495) 797-8863
+ул. Берзарина, д.36 стр.3
+&lt;a href=&quot;http://telecombloger.ru/6396&quot; target=&quot;_blank&quot;&gt;Фото-экскурсия&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="118">
+                <coordinates>37.467202,55.791083,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="121">
+            <name>Golden Telecom</name>
+            <description>ОАО «ВымпелКом»&lt;br /&gt;
+&lt;a href=&quot;http://ОАО «ВымпелКом»&quot; target=&quot;_blank&quot;&gt;ОАО «ВымпелКом»&lt;/a&gt;
++7 (495) 789-3333
+2-ая ул. Энтузиастов д. 5
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="120">
+                <coordinates>37.729015,55.750081,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="123">
+            <name>Оверсан-Меркурий</name>
+            <description>«Оверсан-Меркурий»&lt;br /&gt;
+&lt;a href=&quot;http://«Оверсан-Меркурий»&quot; target=&quot;_blank&quot;&gt;«Оверсан-Меркурий»&lt;/a&gt;
++7 (495) 544-5969
+ул. Авиамоторная, д.53 корп. 30
+&lt;a href=&quot;http://telecombloger.ru/1667&quot; target=&quot;_blank&quot;&gt;Фото-экскурсия&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="122">
+                <coordinates>37.722864,55.746972,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="125">
+            <name>Renta Server</name>
+            <description>ООО «Спорт Менеджмент энд Консалтинг Эдженси»&lt;br /&gt;
+&lt;a href=&quot;http://ООО «Спорт Менеджмент энд Консалтинг Эдженси»&quot; target=&quot;_blank&quot;&gt;ООО «Спорт Менеджмент энд Консалтинг Эдженси»&lt;/a&gt;
++7 (495) 645-0262
+2-й Кожевнический пер., д.12
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="124">
+                <coordinates>37.646816,55.72516,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="127">
+            <name>nthost</name>
+            <description>ЗАО «Фирма ТЕЛ»&lt;br /&gt;
+&lt;a href=&quot;http://ЗАО «Фирма ТЕЛ»&quot; target=&quot;_blank&quot;&gt;ЗАО «Фирма ТЕЛ»&lt;/a&gt;
++7 (495) 787-4224
+4-ая ул. 8 Марта, дом 3
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="126">
+                <coordinates>37.547426,55.803398,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="129">
+            <name>Амбрелла</name>
+            <description>ООО «Лайт Леон»&lt;br /&gt;
+&lt;a href=&quot;http://ООО «Лайт Леон»&quot; target=&quot;_blank&quot;&gt;ООО «Лайт Леон»&lt;/a&gt;
++7 (495) 973-3007
+Весковский пер., дом 3
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="128">
+                <coordinates>37.598966,55.778719,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="131">
+            <name>Фили</name>
+            <description>ООО «ИТ-Софт»&lt;br /&gt;
+&lt;a href=&quot;http://ООО «ИТ-Софт»&quot; target=&quot;_blank&quot;&gt;ООО «ИТ-Софт»&lt;/a&gt;
++7 (495) 916-8951
+пр. Береговой, 4 дробь 6 корпус 3
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="130">
+                <coordinates>37.505241,55.757266,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="133">
+            <name>РамТел</name>
+            <description>ООО «Рамблер Телеком»&lt;br /&gt;
+&lt;a href=&quot;http://ООО «Рамблер Телеком»&quot; target=&quot;_blank&quot;&gt;ООО «Рамблер Телеком»&lt;/a&gt;
++7 (495) 745-3619
+ул. Восточная, д.10
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="132">
+                <coordinates>37.653879,55.711061,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="135">
+            <name>ФИОРД</name>
+            <description>ЗАО «НТЦ ФИОРД»&lt;br /&gt;
+&lt;a href=&quot;http://ЗАО «НТЦ ФИОРД»&quot; target=&quot;_blank&quot;&gt;ЗАО «НТЦ ФИОРД»&lt;/a&gt;
++7 (495) 641-5300
+1-й Варшавский проезд, дом 1а, стр. 28.
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="134">
+                <coordinates>37.627822,55.649484,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="137">
+            <name>G-System POINT-3-MSK</name>
+            <description>ООО «Джи.Си.икс. Системс»&lt;br /&gt;
+&lt;a href=&quot;http://ООО «Джи.Си.икс. Системс»&quot; target=&quot;_blank&quot;&gt;ООО «Джи.Си.икс. Системс»&lt;/a&gt;
++7 (495) 517-4883
+1ый Вешняковский проезд 1 строение 8
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="136">
+                <coordinates>37.784797,55.726178,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="139">
+            <name>М9</name>
+            <description>ОАО «Ростелеком» &lt;br /&gt;
+&lt;a href=&quot;http://ОАО «Ростелеком» М10&quot; target=&quot;_blank&quot;&gt;ОАО «Ростелеком» М10&lt;/a&gt;
++7 (499) 972-8283
+ул. Бутлерова, 7 (М9)
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="138">
+                <coordinates>37.528725,55.652558,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="141">
+            <name>Datacheap.ru</name>
+            <description>ООО «Дельта»&lt;br /&gt;
+&lt;a href=&quot;http://ООО «Дельта»&quot; target=&quot;_blank&quot;&gt;ООО «Дельта»&lt;/a&gt;
++7 (495) 723-0252
+л. Красная сосна, дом 3, Бизнес-центр «Северянин»
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="140">
+                <coordinates>37.685147,55.850276,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="143">
+            <name>McHost</name>
+            <description>ООО «МсХост.ру»&lt;br /&gt;
+&lt;a href=&quot;http://ООО «МсХост.ру»&quot; target=&quot;_blank&quot;&gt;ООО «МсХост.ру»&lt;/a&gt;
++7 (495)
+Авиамоторная ул., д. 53
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="142">
+                <coordinates>37.722355,55.744899,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="145">
+            <name>Стромынка</name>
+            <description>ООО «ПЛАСИНФО»&lt;br /&gt;
+&lt;a href=&quot;http://ООО «ПЛАСИНФО»&quot; target=&quot;_blank&quot;&gt;ООО «ПЛАСИНФО»&lt;/a&gt;
++7 (495) 641-0412
+ул. Стромынка, д. 20
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="144">
+                <coordinates>37.700511,55.793211,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="147">
+            <name>Подкопаевский</name>
+            <description>ООО «ПЛАСИНФО»&lt;br /&gt;
+&lt;a href=&quot;http://ООО «ПЛАСИНФО»&quot; target=&quot;_blank&quot;&gt;ООО «ПЛАСИНФО»&lt;/a&gt;
++7 (495) 641-0412
+Подкопаевский пер., д.7, стр.1
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="146">
+                <coordinates>37.642387,55.754052,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="149">
+            <name>Барон Кнопп</name>
+            <description>ООО «Барон Кнопп»&lt;br /&gt;
+&lt;a href=&quot;http://ООО «Барон Кнопп»&quot; target=&quot;_blank&quot;&gt;ООО «Барон Кнопп»&lt;/a&gt;
++7 (495) 641-0412
+Колпачный переулок, дом 5
+&lt;a href=&quot;http://telecombloger.ru/965&quot; target=&quot;_blank&quot;&gt;Фото-экскурсия&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="148">
+                <coordinates>37.643032,55.758118,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="151">
+            <name>e-Style Telecom</name>
+            <description>ООО «e-Стайл Ай-Эс-Пи»&lt;br /&gt;
+&lt;a href=&quot;http://ООО «e-Стайл Ай-Эс-Пи»&quot; target=&quot;_blank&quot;&gt;ООО «e-Стайл Ай-Эс-Пи»&lt;/a&gt;
++7 (495) 796-9797
+л. Пришвина, д. 8, корпус 1, оф. 202
+&lt;a href=&quot;http://telecombloger.ru/819&quot; target=&quot;_blank&quot;&gt;Фото-экскурсия&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="150">
+                <coordinates>37.594811,55.888631,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="153">
+            <name>Colocat Кунцево</name>
+            <description>ООО «Система Сервис»&lt;br /&gt;
+&lt;a href=&quot;http://ООО «Система Сервис»&quot; target=&quot;_blank&quot;&gt;ООО «Система Сервис»&lt;/a&gt;
++7 (495) 744-8488
+ул. Молодогвардейская, 52 строение 2.
+&lt;a href=&quot;http://telecombloger.ru/1006&quot; target=&quot;_blank&quot;&gt;Фото-экскурсия&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="152">
+                <coordinates>37.40186,55.734672,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="155">
+            <name>МногоБайт</name>
+            <description>ОАО «МногоБайт»&lt;br /&gt;
+&lt;a href=&quot;http://ОАО «МногоБайт»&quot; target=&quot;_blank&quot;&gt;ОАО «МногоБайт»&lt;/a&gt;
++7 (495) 739-2551
+ул. Тушинская, дом 12
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="154">
+                <coordinates>37.44802,55.826965,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="157">
+            <name>АКАДО Телеком</name>
+            <description>ОАО «КОМКОР»&lt;br /&gt;
+&lt;a href=&quot;http://ОАО «КОМКОР»&quot; target=&quot;_blank&quot;&gt;ОАО «КОМКОР»&lt;/a&gt;
++7 (495) 411?7171
+Варшавское ш., д.133
+&lt;a href=&quot;http://telecombloger.ru/2107&quot; target=&quot;_blank&quot;&gt;Фото-экскурсия&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="156">
+                <coordinates>37.607619,55.603959,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="159">
+            <name>e-Zone Волгоградский пр.</name>
+            <description>ЗАО «Открытые Коммуникации»&lt;br /&gt;
+&lt;a href=&quot;http://ЗАО «Открытые Коммуникации»&quot; target=&quot;_blank&quot;&gt;ЗАО «Открытые Коммуникации»&lt;/a&gt;
++7 (495) 504-0008
+Волгоградский проспект, д.32, корп.43.
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;
+</description>
+            <Point id="158">
+                <coordinates>37.685069,55.722972,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="161">
+            <name>БСХ</name>
+            <description>НПП «Бизнес Связь Холдинг»&lt;br /&gt;
+&lt;a href=&quot;http://НПП «Бизнес Связь Холдинг»&quot; target=&quot;_blank&quot;&gt;НПП «Бизнес Связь Холдинг»&lt;/a&gt;
++7 (495) 363-0670
+ЦАО. ул. Зоологическая, 2
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="160">
+                <coordinates>37.580333,55.765634,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="163">
+            <name>DataPlanet</name>
+            <description>ЗАО «ДАТАПЛЭНЕТ»&lt;br /&gt;
+&lt;a href=&quot;http://ЗАО «ДАТАПЛЭНЕТ»&quot; target=&quot;_blank&quot;&gt;ЗАО «ДАТАПЛЭНЕТ»&lt;/a&gt;
++7 (499) 940-9499
+г. Зеленоград, проезд 4807, д. 1, стр. 1
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="162">
+                <coordinates>37.258684,55.980481,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="165">
+            <name>webdc</name>
+            <description>ЗАО «Датацентр»&lt;br /&gt;
+&lt;a href=&quot;http://ЗАО «Датацентр»&quot; target=&quot;_blank&quot;&gt;ЗАО «Датацентр»&lt;/a&gt;
++7 (495) 749-9448
+Химки Московская область Нагорное шоссе дом 2
+&lt;a href=&quot;http://telecombloger.ru/1518&quot; target=&quot;_blank&quot;&gt;Фото-экскурсия&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="164">
+                <coordinates>37.404013,55.894239,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="167">
+            <name>Digital Media House</name>
+            <description>ООО «Хостеров»&lt;br /&gt;
+&lt;a href=&quot;http://ООО «Хостеров»&quot; target=&quot;_blank&quot;&gt;ООО «Хостеров»&lt;/a&gt;
++7 (495) 979-3707
+Волгоградский проспект д.32, корп. 43 (территория АЗЛК)
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="166">
+                <coordinates>37.685541,55.722809,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="169">
+            <name>ЦОД Прогресс</name>
+            <description>ООО «ОКБ Прогресс»&lt;br /&gt;
+&lt;a href=&quot;http://ООО «ОКБ Прогресс»&quot; target=&quot;_blank&quot;&gt;ООО «ОКБ Прогресс»&lt;/a&gt;
++7 (495) 725-4134
+Талалихина ул, дом 41, стр. 8
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="168">
+                <coordinates>37.687518,55.727707,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="171">
+            <name>Мажоров-II</name>
+            <description>ООО «Теленэт»&lt;br /&gt;
+&lt;a href=&quot;http://ООО «Теленэт»&quot; target=&quot;_blank&quot;&gt;ООО «Теленэт»&lt;/a&gt;
++7 (495) 777-2333
+Мажоров пер.,14
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="170">
+                <coordinates>37.71196,55.783992,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="173">
+            <name>ЦОД Мажоров-I</name>
+            <description>ООО «Теленэт»&lt;br /&gt;
+&lt;a href=&quot;http://ООО «Теленэт»&quot; target=&quot;_blank&quot;&gt;ООО «Теленэт»&lt;/a&gt;
++7 (495) 777-2333
+Мажоров пер.,14
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="172">
+                <coordinates>37.712024,55.784065,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="175">
+            <name>ЦОД Медовый</name>
+            <description>ООО «Теленэт»&lt;br /&gt;
+&lt;a href=&quot;http://ООО «Теленэт»&quot; target=&quot;_blank&quot;&gt;ООО «Теленэт»&lt;/a&gt;
++7 (495) 777-2333
+Медовый пер.,5
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="174">
+                <coordinates>37.709821,55.783633,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="177">
+            <name>ЦОД Коровинское шоссе</name>
+            <description>ООО «ДатаЛайн»&lt;br /&gt;
+&lt;a href=&quot;http://ООО «ДатаЛайн»&quot; target=&quot;_blank&quot;&gt;ООО «ДатаЛайн»&lt;/a&gt;
++7 (495) 721-3505
+Коровинское шоссе,41
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="176">
+                <coordinates>37.513403,55.88662,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="179">
+            <name>ЦОД Боровая 7</name>
+            <description>ООО «ДатаЛайн»&lt;br /&gt;
+&lt;a href=&quot;http://ООО «ДатаЛайн»&quot; target=&quot;_blank&quot;&gt;ООО «ДатаЛайн»&lt;/a&gt;
++7 (495) 721-3505
+ул.Боровая, 7 стр.10
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="178">
+                <coordinates>37.71589,55.770354,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="181">
+            <name>Славянский</name>
+            <description>ЗАО «СВС-связь»&lt;br /&gt;
+&lt;a href=&quot;http://ЗАО «СВС-связь»&quot; target=&quot;_blank&quot;&gt;ЗАО «СВС-связь»&lt;/a&gt;
++7 (495) 938-9738
+ул. Давыдковская, д.3
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="180">
+                <coordinates>37.479855,55.727213,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="183">
+            <name>Траст-Инфо</name>
+            <description>ООО «Траст-Инфо»&lt;br /&gt;
+&lt;a href=&quot;http://ООО «Траст-Инфо»&quot; target=&quot;_blank&quot;&gt;ООО «Траст-Инфо»&lt;/a&gt;
++7 (495) 933-2447
+Варшавское шоссе, д. 125, стр. 16
+&lt;a href=&quot;http://telecombloger.ru/1466&quot; target=&quot;_blank&quot;&gt;Фото-экскурсия&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="182">
+                <coordinates>37.621854,55.622902,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="185">
+            <name>ДЦ на Ярославской</name>
+            <description>ЗАО «Диджитал Нетворк»&lt;br /&gt;
+&lt;a href=&quot;http://ЗАО «Диджитал Нетворк»&quot; target=&quot;_blank&quot;&gt;ЗАО «Диджитал Нетворк»&lt;/a&gt;
++7 (495) 660-8686
+ул. Ярославская, д. 13а
+&lt;a href=&quot;http://telecombloger.ru/887&quot; target=&quot;_blank&quot;&gt;Фото-экскурсия&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="184">
+                <coordinates>37.644005,55.819497,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="187">
+            <name>ДЦ в Долгопрудном</name>
+            <description>ООО «Агава»&lt;br /&gt;
+&lt;a href=&quot;http://ООО «Агава»&quot; target=&quot;_blank&quot;&gt;ООО «Агава»&lt;/a&gt;
++7 (495) 781-6537
+МО г. Долгопрудный, Первомайская ул., 1
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="186">
+                <coordinates>37.523991,55.923648,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="189">
+            <name>Wahome</name>
+            <description>ОАО «Вебальта»&lt;br /&gt;
+&lt;a href=&quot;http://ОАО «Вебальта»&quot; target=&quot;_blank&quot;&gt;ОАО «Вебальта»&lt;/a&gt;
++7 (495) 234-0000
+пр. Андропова, дом 22
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="188">
+                <coordinates>37.661513,55.68256,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="191">
+            <name>.masterhost</name>
+            <description>ЗАО «МАСТРЕХОСТ»&lt;br /&gt;
+&lt;a href=&quot;http://ЗАО «МАСТРЕХОСТ»&quot; target=&quot;_blank&quot;&gt;ЗАО «МАСТРЕХОСТ»&lt;/a&gt;
++7 (495) 772-9720
+Архангельский пер., д.1
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="190">
+                <coordinates>37.638083,55.760174,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="193">
+            <name>M8</name>
+            <description>ЗАО «Линкс Телекоммьюникэйшнс СНГ»&lt;br /&gt;
+&lt;a href=&quot;http://ЗАО «Линкс Телекоммьюникэйшнс СНГ»&quot; target=&quot;_blank&quot;&gt;ЗАО «Линкс Телекоммьюникэйшнс СНГ»&lt;/a&gt;
++7 (495) 797-9160
+ул.8 Марта, д.14
+&lt;a href=&quot;http://telecombloger.ru/2335&quot; target=&quot;_blank&quot;&gt;Фото-экскурсия&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="192">
+                <coordinates>37.55024,55.805806,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="195">
+            <name>Центральный Телеграф</name>
+            <description>ОАО «Центральный Телеграф»&lt;br /&gt;
+&lt;a href=&quot;http://ОАО «Центральный Телеграф»&quot; target=&quot;_blank&quot;&gt;ОАО «Центральный Телеграф»&lt;/a&gt;
++7 (495) 504-4444
+ул.Тверская, д.7
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="194">
+                <coordinates>37.611328,55.758023,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="197">
+            <name>Telehouse Caravan</name>
+            <description>ЗАО «Караван-Телеком»&lt;br /&gt;
+&lt;a href=&quot;http://ЗАО «Караван-Телеком»&quot; target=&quot;_blank&quot;&gt;ЗАО «Караван-Телеком»&lt;/a&gt;
++7 (495) 645-8080
+Проспект Мира, д. 222
+&lt;a href=&quot;http://telecombloger.ru/3136&quot; target=&quot;_blank&quot;&gt;Фото-экскурсия&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="196">
+                <coordinates>37.666559,55.841151,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="199">
+            <name>ЦОД на Обыденском</name>
+            <description>ЗАО «Караван-Телеком»&lt;br /&gt;
+&lt;a href=&quot;http://ЗАО «Караван-Телеком»&quot; target=&quot;_blank&quot;&gt;ЗАО «Караван-Телеком»&lt;/a&gt;
++7 (495) 363-2252
+2-й Обыденский пер., д.12а
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;
+</description>
+            <Point id="198">
+                <coordinates>37.601522,55.742982,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="201">
+            <name>ЗЕНОН Н.С.П.</name>
+            <description>ООО «ЗЕНОН Н.С.П.»&lt;br /&gt; 
+&lt;a href=&quot;http://ООО «ЗЕНОН Н.С.П.»&quot; target=&quot;_blank&quot;&gt;ООО «ЗЕНОН Н.С.П.»&lt;/a&gt; 
++7 (495) 956-4035 
+ул. Ямского Поля, 19 
+
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt; 
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt; </description>
+            <Point id="200">
+                <coordinates>37.57749,55.783154,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="203">
+            <name>Синтерра</name>
+            <description>ОАО &quot;Мегафон&quot;
+&lt;a href=&quot;http://synterra.ru&quot; target=&quot;_blank&quot;&gt;synterra.ru&lt;/a&gt;
++7 (495) 647-7777
+Мичуринский пр. 27/5
+
+&lt;br /&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="202">
+                <coordinates>37.502757,55.694272,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="205">
+            <name>Мастертел</name>
+            <description>ЗАО «Мастертел»
+&lt;a href=&quot;http://mastertel.ru&quot; target=&quot;_blank&quot;&gt;mastertel.ru&lt;/a&gt;
++7 (495) 787-0777
+Волоколамское шоссе, 1
+&lt;br /&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="204">
+                <coordinates>37.503792,55.806179,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="207">
+            <name>Хостинговые Телесистемы</name>
+            <description>ЗАО «Хостинговые Телесистемы»
+&lt;a href=&quot;http://ht-systems.ru&quot; target=&quot;_blank&quot;&gt;ht-systems.ru&lt;/a&gt;
++7 (495) 363-3310
+ул. Павловская, д.27/29
+&lt;a href=&quot;http://telecombloger.ru/157&quot; target=&quot;_blank&quot;&gt;Фото-экскурсия&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="206">
+                <coordinates>37.627932,55.711761,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="209">
+            <name>M101</name>
+            <description>ОАО «РТКомм.РУ»
+&lt;a href=&quot;http://rt-comm.ru&quot; target=&quot;_blank&quot;&gt;rt-comm.ru&lt;/a&gt;
++7 (495) 645-0140
+Варшавское шоссе дом 125 строение 16
+&lt;br /&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="208">
+                <coordinates>37.621889,55.623128,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="211">
+            <name>M10</name>
+            <description>ОАО «РТКомм.РУ»
+&lt;a href=&quot;http://rt-comm.ru&quot; target=&quot;_blank&quot;&gt;rt-comm.ru&lt;/a&gt;
++7 (495) 645-0140
+ул. Сущевский вал д. 26
+&lt;a href=&quot;http://telecombloger.ru/150&quot; target=&quot;_blank&quot;&gt;Фото-экскурсия&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="210">
+                <coordinates>37.60765,55.792363,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="213">
+            <name>DataHouse.ru Буракова</name>
+            <description>ООО «Филанко»
+&lt;a href=&quot;http://datahouse.ru&quot; target=&quot;_blank&quot;&gt;datahouse.ru&lt;/a&gt;
++7 (495) 363-0542
+ул. Буракова, дом 27, корп. 2
+&lt;br /&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="212">
+                <coordinates>37.73749,55.758584,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="215">
+            <name>DataHouse.ru Курская</name>
+            <description>ООО «Филанко»
+&lt;a href=&quot;http://datahouse.ru&quot; target=&quot;_blank&quot;&gt;datahouse.ru&lt;/a&gt;
++7 (495) 363-0542
+Нижняя Сыромятническая ул, дом 5/7, стр. 9
+&lt;a href=&quot;http://telecombloger.ru/375&quot; target=&quot;_blank&quot;&gt;Фото-экскурсия&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="214">
+                <coordinates>37.667793,55.752807,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="217">
+            <name>HTH</name>
+            <description>ЗАО «Группа компаний Стек»
+&lt;a href=&quot;http://stack.net&quot;&gt;stack.net&lt;/a&gt;
++7 (495) 980-6000
+ул. Б. Академическая, д.5, стр. 4
+&lt;a href=&quot;http://telecombloger.ru/145&quot; target=&quot;_blank&quot;&gt;Фото-экскурсия&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="216">
+                <coordinates>37.52137,55.818914,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="219">
+            <name>M1</name>
+            <description>ЗАО «Группа компаний Стек»
+&lt;a href=&quot;http://stack.net&quot;&gt;stack.net&lt;/a&gt;
++7 (495) 980-6000
+Варшавское шоссе, 125, стр.1
+&lt;a href=&quot;http://telecombloger.ru/140&quot; target=&quot;_blank&quot;&gt;Фото-экскурсия&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot; target=&quot;_blank&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="218">
+                <coordinates>37.618624,55.625055,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="221">
+            <name>KIAEHOUSE</name>
+            <description>АНО ЦВКС “MSK-IX”
+&lt;a href=&quot;http://msk-ix.ru&quot;&gt;msk-ix.ru&lt;/a&gt;
++7 (495) 196-7278
+пл. акад. Курчатова, д.1
+&lt;a href=&quot;http://telecombloger.ru/134&quot;&gt;Фото-экскурсия &lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="220">
+                <coordinates>37.474465,55.800418,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="223">
+            <name>StoreData</name>
+            <description>ООО “Научный инновационный центр”
+&lt;a href=&quot;http://storedata.ru&quot;&gt;http://storedata.ru&lt;/a&gt;
++7 (495) 234-2334
+Ул. Нижегородская, дом 32
+&lt;a href=&quot;http://telecombloger.ru/3112&quot;&gt;Фото-экскурсия &lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="222">
+                <coordinates>37.688789,55.737156,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="225">
+            <name>ДатаДом</name>
+            <description>ЗАО «ДатаДом»
+&lt;a href=&quot;http://datadome.ru&quot;&gt;http://datadome.ru&lt;/a&gt;
++7 (495) 234-3964
+Остаповский проезд, д.22, стр.1 
+&lt;a href=&quot;http://telecombloger.ru/112&quot;&gt;Фото-экскурсия &lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="224">
+                <coordinates>37.714389,55.718754,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="227">
+            <name>SafeData</name>
+            <description>ООО «Центр Хранения Данных»
+&lt;a href=&quot;http://safedata.ru&quot;&gt;http://safedata.ru&lt;/a&gt;
++7 (495) 232-4562
+Остаповский проезд, дом 22, стр. 16
+&lt;a href=&quot;http://telecombloger.ru/2555&quot;&gt;Фото-экскурсия &lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/msk&quot;&gt;Каталог ЦОД Москвы&lt;/a&gt;
+&lt;a href=&quot;http://telecombloger.ru/katalog-cod/add&quot; target=&quot;_blank&quot;&gt;Добавить ЦОД на карту&lt;/a&gt;</description>
+            <Point id="226">
+                <coordinates>37.713069,55.717942,0.0</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>
