@@ -8,6 +8,7 @@ import pandas as pd
 import random
 from Modular_arithmetic import extended_euclidian
 from sage.all import Integer
+from functools import reduce
 
 # ====== A Lancer en tant que privilégié pour que l'os priorise ce processus ==========
 #p = psutil.Process(os.getpid())
@@ -59,7 +60,7 @@ def pollard_rho(h:int, g:int, order:int, p:int, init=0,max_iterations=90000000):
         # https://fr.wikipedia.org/wiki/Algorithme_du_li%C3%A8vre_et_de_la_tortue
         
         if X_i==x_i:
-            print(X_i, x_i)
+            #print(X_i, x_i)
             d = pgcd(b_i-B_i, order)
             if d != 1:
                 pass
@@ -69,18 +70,52 @@ def pollard_rho(h:int, g:int, order:int, p:int, init=0,max_iterations=90000000):
     logging.info(f"nombre iterations : {k}, order : {order}")
     return a
 
-def polhig_hellman(h:int, g:int, p:int, fast:bool = False,list_prime_avoid:list[int]=[]):
+def order_g_f(g, p, order_prime_decomposition):
+
+    order_g_prime_decomposition = []
+    order_g_power_decomposition  = []
+    order_g = 1
+
+    for prime_power in order_prime_decomposition:
+        order_g_power_inter=0
+
+        for power in reversed(range(1,prime_power[1]+1)):
+            if pow(g, (p-1)//(prime_power[0]**power), p) == 1:
+                break
+            else:
+                order_g_power_inter += 1
+
+        if order_g_power_inter>=1:
+            order_g *= prime_power[0]**order_g_power_inter
+            order_g_prime_decomposition.append(prime_power[0])
+            order_g_power_decomposition.append(order_g_power_inter)
+    return list(zip(order_g_prime_decomposition, order_g_power_decomposition)), order_g
+
+
+def polhig_hellman(h:int, g:int, p:int, fast:bool = False,order_prime_decomposition:list[list[int,int]]=[], order_prime_decomposition_g:list[list[int,int]]=[], list_prime_avoid:list[int]=[]):
     # =========================== Computing a of h=g^x mod p of a weak DLP ==========================
+    # attention au cas où g n'est pas un générateur
     # https://risencrypto.github.io/PohligHellman/
 
     if Integer(p).is_prime():
-        order_prime_decomposition = list(Integer(p-1).factor())
-        order_prime_decomposition = [(int(k[0]),int(k[1])) for k in order_prime_decomposition if k[0] not in list_prime_avoid]
+        if len(order_prime_decomposition) ==0:
+            order_prime_decomposition = list(Integer(p-1).factor())
+
+        # attention ca va buguer mainteant ca si on veut dégager des puissances top grandes 
+        # order_prime_decomposition = [(int(k[0]),int(k[1])) for k in order_prime_decomposition if k[0] not in list_prime_avoid]
+
+        # Pour traiter le cas où g n'est pas un générateur de toute la courbe 
+        if len(order_prime_decomposition_g)==0:
+            order_prime_decomposition, order_g = order_g_f(g, p, order_prime_decomposition)
+        else:
+            order_prime_decomposition = order_prime_decomposition_g
+            order_g = reduce(lambda x, y: x * y, [k[0]**k[1] for k in order_prime_decomposition_g]) 
+            
     else:
         raise Exception("p is not prime")
 
     # ordre du DLP
-    n = p - 1
+    n = order_g
 
     a_i_list=[]
 
@@ -117,7 +152,7 @@ def polhig_hellman(h:int, g:int, p:int, fast:bool = False,list_prime_avoid:list[
                     a_i_j = pollard_rho(s_i, r_i, p_i , p, init=0) 
                     while a_i_j is None: # si a_i_j est tombée sur une collision non inversible
                         k+=1
-                        print(k)
+                        print(f"collision non inversible : n°{k}")
                         a_i_j = pollard_rho(s_i, r_i, p_i , p, init=k) 
 
 
