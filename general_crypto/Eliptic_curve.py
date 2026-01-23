@@ -53,7 +53,8 @@ class WeierStrass(ElipticCurve):
 
         self.discriminant = -16 * (4 * a**3 + 27 * b**2) %p
 
-        if not self.isSingular() and self.secure:
+        if self.isSingular() and self.secure:
+            # we aren't ttesting is the curse is anomalous btw
             raise Exception("The curve is singular")
     
     def __str__(self):
@@ -63,7 +64,7 @@ class WeierStrass(ElipticCurve):
         return (self.a, self.b, self.p) == (other.a, other.b, other.p)
 
     def isSingular(self):
-        return self.discriminant != 0
+        return self.discriminant == 0
 
     def testPoint(self, P):
         return P.infinity or (P.y**2-P.x**3 - self.a * P.x - self.b)%self.p == 0
