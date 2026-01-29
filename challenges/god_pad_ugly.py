@@ -11,9 +11,9 @@ import json
 from Crypto.Util.Padding import unpad
 from Crypto.Cipher import AES
 from os import urandom
+from random import SystemRandom
 
-
-r = remote('socket.cryptohack.org', 13421, level = 'info')
+r = remote('socket.cryptohack.org', 13422, level = 'info')
 
 def interface(data:dict):
     # on envoie la requete 
@@ -28,12 +28,21 @@ FLAG = 'crypto{?????????????????????????????????????????????????????}'
 def Xor(*args):
     return bytes(reduce(xor, t) for t in zip(*args))
 
+rng = SystemRandom()
+
+
 class Challenge:
     def __init__(self):
-        self.before_input = "Let's practice padding oracle attacks! Recover my message and I'll send you a flag.\n"
+        self.before_input = "That last challenge was pretty easy, but I'm positive that this one will be harder!\n"
         self.message = urandom(16).hex()
-        
         self.key = urandom(16)
+        self.query_count = 0
+        self.max_queries = 12_000
+
+    def update_query_count(self):
+        self.query_count += 1
+        if self.query_count >= self.max_queries:
+            self.exit = True
 
     def get_ct(self):
         iv = urandom(16)
@@ -52,7 +61,8 @@ class Challenge:
             good = False
         else:
             good = True
-        return {"result": good}
+        self.update_query_count()
+        return {"result": good | (rng.random() > 0.4)}
 
     def check_message(self, message):
         if message != self.message:
@@ -73,8 +83,13 @@ class Challenge:
         elif msg["option"] == "check": return self.check_message(msg["message"])
 
 
+
+
 def challenge_resolve(interface):
-    compteur = 0
+
+    nb_request = 0
+    nb_confirmations = 20
+
     data_interface = bytes.fromhex(interface({"option" : "encrypt"})["ct"])
     iv = data_interface[:16]
     cipher_message = data_interface[16:]
@@ -89,6 +104,7 @@ def challenge_resolve(interface):
         print(f"=====================================================")
         for i in tqdm(range(1,17)):
             # byte par byte on va déchiffrer la sortie du bloc AES
+            print(nb_request)
             for k in range(256):
                 # on bruteforce le byte jusqu'a trouver le bon padding
                 byte_bruteforce = bytes([k]).hex() 
@@ -97,10 +113,15 @@ def challenge_resolve(interface):
                 cipher = bytes([0]*(16-i)).hex() + byte_bruteforce + found.hex() 
                 # Ajout du chiffré 
                 cipher += cipher_message[index_bloc:index_bloc+16].hex()
-
+                # assert i == len(found)-1
                 # on teste si le padding est valide ou non
-                res = interface({"option" : "unpad", "ct":cipher})["result"]
-                compteur +=1
+                for _ in range(nb_confirmations):
+                    assert len(bytes.fromhex(cipher)) == 32
+                    res = interface({"option" : "unpad", "ct":cipher})["result"]
+                    nb_request+=1
+                    if not res:
+                        break
+
                 """
                 si le padding est correct, on a trouvé le bon byte
                 maintenant pour bruteforcer le byte suivant il faut qu'on s'assure que le(s) byte(s) précédemment trouvé(s)
@@ -152,7 +173,6 @@ def challenge_resolve(interface):
             plaintext += Xor(output_decryption, cipher_message[index_bloc-16:index_bloc])
 
     flag = interface({"option" : "check", "message":plaintext.decode()})["flag"]
-    print(f"Nombre de requêtes:{compteur}")
     return flag
 
 
@@ -170,11 +190,11 @@ if __name__ == "__main__":
     flag = challenge_resolve(interface_)
     assert flag == FLAG
 
-    # ================ Cryptohack (asssez rapide) ==================
+    # # ================ Cryptohack (asssez rapide) ==================
     interface_ = interface
 
     print(r.readline())
     flag = challenge_resolve(interface_)
-    assert flag == "crypto{if_you_ask_enough_times_you_usually_get_what_you_want}"
+    assert flag == "crypto{even_a_faulty_oracle_leaks_all_information}"
 
  
