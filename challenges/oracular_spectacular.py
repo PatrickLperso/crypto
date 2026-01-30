@@ -248,6 +248,9 @@ if __name__ == "__main__":
 
     # # ================ Home test ==================
 
+    # A implenter pour ma propre solution
+    # https://www.nccgroup.com/research-blog/exploiting-noisy-oracles-with-bayesian-inference/
+    
     folder = os.path.join(os.path.dirname(os.path.abspath(__file__)), "ressources")
     logfile_path = os.path.join(folder, "log.txt")
 
