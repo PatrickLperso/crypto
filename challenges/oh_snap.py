@@ -36,6 +36,7 @@ def send_cmd(ciphertext, nonce):
         return {"error": f"Unknown command: {cmd.hex()}"}
 
 def send_cmd_request(ciphertext, nonce):
+    # allez aiohttp async qd j'aurais la foi
     return requests.get(f"https://aes.cryptohack.org/oh_snap/send_cmd/{ciphertext}/{nonce}").json()
 
 def ksa(key, iterations=256):
@@ -73,13 +74,12 @@ def find_length_RC4_key(interface_send_cmd):
     # longueur de la clé secrète RC4 (hors IV)
     return 256 - last_ok
 
-def challenge(interface_send_cmd):
+def challenge(interface_send_cmd, nb_request_max):
     
 
     length_RC4_key = find_length_RC4_key(interface_send_cmd)
 
-    key_found = b'crypto{'
-    nb_request_max = 1000
+    key_found = b''
 
     for A in tqdm(range(len(key_found),length_RC4_key)):
 
@@ -119,7 +119,8 @@ def challenge(interface_send_cmd):
                 continue
         
         # on enleve les caractères non UTF8 et on garde le caratère le plus présent
-        # note : il est possible d'améliorer le truc avec de l'entropie etc.
+        # note : il est très probablement possible d'améliorer le truc avec de l'entropie etc.
+        # afin de drastiquement réduire le nombre de requêtes
         key_found += list(filter(lambda x:x[0][0]<=127, Counter(bytes_possible).most_common()))[0][0]
         print(key_found)
     return key_found
@@ -131,9 +132,15 @@ if __name__ == "__main__":
     # https://link.springer.com/content/pdf/10.1007/3-540-45537-X_1.pdf
     # https://github.com/jackieden26/FMS-Attack/blob/master/FMS%20Presentation.pdf
 
-    interface_send_cmd = send_cmd #send_cmd_request 
+    # =========== RC4 FMS local attack ==============
+    interface_send_cmd = send_cmd 
 
-    flag = challenge(send_cmd_request)
-    print(flag)
+    flag = challenge(interface_send_cmd, 2000)
+    assert flag.decode() == FLAG
+
+    # =========== RC4 FMS cryptohack challenge ==============
+    # interface_send_cmd = send_cmd_request 
+    # flag = challenge(interface_send_cmd,1000)
+    # assert flag == b"crypto{w1R3d_equ1v4l3nt_pr1v4cy?!}"
 
 
