@@ -75,7 +75,6 @@ def find_length_RC4_key(interface_send_cmd):
     return 256 - last_ok
 
 def challenge(interface_send_cmd, nb_request_max):
-    
 
     length_RC4_key = find_length_RC4_key(interface_send_cmd)
 
