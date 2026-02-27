@@ -35,12 +35,15 @@ class Rsa_privatekey():
     def gen_publickey(self):
         return Rsa_publickey(self.N, self.e)
     
-    def decrypt(self, cipher:int):
-        return pow(bytes_to_long(bytes.fromhex(cipher)), self.d, self.N)
+    def decrypt(self, cipher:int, bytes_output=False):
+        if bytes_output:
+            return long_to_bytes(pow(bytes_to_long(bytes.fromhex(cipher)), self.d, self.N))
+        else:
+            return pow(bytes_to_long(bytes.fromhex(cipher)), self.d, self.N)
 
     def sign(self, message:str):
         try:
-            digest = bytes_to_long(sha256(message.encode()).digest())0
+            digest = bytes_to_long(sha256(message.encode()).digest())
             return long_to_bytes(pow(digest, self.d, self.N)).hex()
         except:
             raise Exception("Something went wrong")
