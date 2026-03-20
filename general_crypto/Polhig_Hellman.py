@@ -80,7 +80,7 @@ def save_progress_file(k:int, P:PointWeirstrass, order:int, Q:PointWeirstrass, X
         )
 
 
-def pollard_rho(P:PointWeirstrass, Q:PointWeirstrass, order:int, reprise_file:bool, save_progress:bool, max_iterations=90000000):
+def pollard_rho(P:PointWeirstrass, Q:PointWeirstrass, order:int, init:int, reprise_file:bool, save_progress:bool, max_iterations=90000000):
     
 
     # on recherche une collision X_i == x_i 
@@ -101,10 +101,11 @@ def pollard_rho(P:PointWeirstrass, Q:PointWeirstrass, order:int, reprise_file:bo
     file_exist = os.path.exists(csv_path)
 
     if not reprise_file or not file_exist:
-        X_i = P
-        x_i = P
-        A_i, B_i = 1, 0
+        A_i, B_i = init, 0
         a_i, b_i = 1, 0
+
+        X_i = A_i*P + B_i*Q
+        x_i = a_i*P + b_i*Q
 
         start=0
     else:
@@ -193,9 +194,13 @@ def polhig_hellman(P:PointWeirstrass, Q:PointWeirstrass, order:int, order_prime_
                     else:
                         save_progress=False
                         reprise_file=False
-                    a_i_j = pollard_rho(R_i, S_i, p_i, reprise_file=reprise_file, save_progress=save_progress)
+
+                    k = 0
+                    a_i_j = pollard_rho(R_i, S_i, p_i, init = k, reprise_file=reprise_file, save_progress=save_progress)
                     while a_i_j is None: # si a_i_j est tombée sur une collision non inversible
-                        a_i_j = pollard_rho(R_i, S_i, p_i, reprise_file=reprise_file, save_progress=save_progress)
+                        k+=1
+                        print(f"collision non inversible : n°{k}")
+                        a_i_j = pollard_rho(R_i, S_i, p_i, init = k,  reprise_file=reprise_file, save_progress=save_progress)
                 a_i +=a_i_j*p_i**j
 
             a_i_list.append(a_i)
@@ -215,17 +220,21 @@ if __name__ == "__main__":
     order_curve=7889
     
     # #======== Test BruteForce ==========
+    print("===== BruteForce ====")
     P=PointWeirstrass(curve1, 4023,6036)
     Z=2000*P
     assert 2000==brute_force(P,Z,order_curve)
     del P
 
     # #========= Test Pollard ============
+    print("===== pollard rho ====")
     P=PointWeirstrass(curve1, 4023,6036)
-    Q=6000*P
-    solution = pollard_rho(P, Q, order=7889, reprise_file=False, save_progress=False, max_iterations=7889)
+    Q=2000*P
+    solution = pollard_rho(P, Q, order=7889, init = 0, reprise_file=False, save_progress=False, max_iterations=7889)
     while solution is None:
-        solution = pollard_rho(P, Q, order=7889, reprise_file=False, save_progress=False,  max_iterations=7889)
+        k+=1
+        print(f"collision non inversible : n°{k}")
+        solution = pollard_rho(P, Q, order=7889, init = k, reprise_file=False, save_progress=False,  max_iterations=7889)
     assert Q==solution * P
     del P, Q
 

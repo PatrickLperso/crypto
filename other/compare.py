@@ -44,7 +44,7 @@ def intersection(data_myself, data_other):
 if __name__ == "__main__":
 
     username_myself = "patrickl_sc"
-    username_other = "Blupper"
+    username_other = "kiseia"
 
     data_myself = get_data(username_myself)
     data_other = get_data(username_other)

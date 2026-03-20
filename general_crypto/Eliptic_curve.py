@@ -170,7 +170,7 @@ class PointWeirstrass(Point):
 
             return PointWeirstrass(self.curve, x3, y3, secure=self.secure)
     
-    def __mul__(self, k):
+    def __rmul__(self, k):
 
         result = PointWeirstrass(self.curve, secure=self.secure)
         PointToAdd = self

@@ -132,11 +132,11 @@ def break_twist(a:int,b:int,p:int,interface,scalar:int=None,limit_prime_pohlig:i
                 x_scalar_twist = interface(x)
 
             Q = curve_weirstrass_twist.point_from_x((x_scalar_twist*c)%p) # on prend la coordonnée x renvoyée x(c*Gx)
-            crt_system_equations=polhig_hellman(G_twist_weirstrass, Q, int(order_twist), prime_decomposition, fast=True, list_prime_avoid=list_prime_avoid, reprise=False)
+            crt_system_equations=polhig_hellman(G_twist_weirstrass, Q, int(order_twist), prime_decomposition, fast=True, list_prime_avoid=list_prime_avoid)
             
             break
         else:
-            raise Excepption("Not a single non square c for the twist was found")
+            raise Exception("Not a single non square c for the twist was found")
 
     return G_twist_weirstrass, x_scalar_twist, crt_system_equations
 
@@ -202,6 +202,7 @@ if __name__ == "__main__":
     # ========== Avant polhig Hellman on fait un choix car quand on nous renvoie l coordonée x on peut choisir P(x, +/y) avec tonneli
     # ==========   on doit donc rendre coherent le système d'équation pour CRT ==========  
 
+    # on s'assure de pas avoir de sous groupe en doublons pour le CRT 
     solution = crt_system_equation_solution(crt_system_equations1, crt_system_equations2, order, G_weirstrass, x_scalar_weirstrass)
     
     assert scalar==solution
