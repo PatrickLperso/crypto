@@ -35,7 +35,7 @@ class Rsa_privatekey():
     def gen_publickey(self):
         return Rsa_publickey(self.N, self.e)
     
-    def decrypt(self, cipher:int, bytes_output=False):
+    def decrypt(self, cipher:str, bytes_output=False):
         if bytes_output:
             return long_to_bytes(pow(bytes_to_long(bytes.fromhex(cipher)), self.d, self.N))
         else:
