@@ -160,7 +160,7 @@ def polhig_hellman(h:int, g:int, p:int, fast:bool = False,order_prime_decomposit
 
             a_i_list.append(a_i)
     
-    crt_system_equations = list(zip(a_i_list,list(map(lambda x:x[0]**x[1],order_prime_decomposition))))
+    crt_system_equations = list(zip(a_i_list,list(map(lambda x:x[0]**x[1],[p_i for p_i in order_prime_decomposition if p_i[0] not in list_prime_avoid]))))
     if list_prime_avoid:
         return crt_system_equations
     return ChineseRemainder(crt_system_equations, fast)
