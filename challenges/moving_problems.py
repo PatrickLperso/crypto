@@ -7,10 +7,10 @@ import hashlib
 import os,sys
 
 # Ajout du répertoire eliptic curve
-sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "general_crypto"))
+#sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "general_crypto"))
 
-from Polhig_Hellman import polhig_hellman
-from Eliptic_curve import WeierStrass, PointWeirstrass
+from crypto_core.Polhig_Hellman import polhig_hellman
+from crypto_core.Eliptic_curve import WeierStrass, PointWeirstrass
 
 def encrypt_flag(shared_secret: int, message):
     # Derive AES key from shared secret

@@ -68,10 +68,3 @@ def factor(modulos):
 
 
 
-if __name__ == "__main__":
-    
-    keys = generate_vulnerable_keys(50)
-
-    factorisation = factor(list(map(lambda x:x["n"],keys)))
-
-    print("toto")

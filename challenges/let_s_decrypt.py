@@ -16,8 +16,8 @@ from pwn import *
 import json
 import string
 
-sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "general_crypto"))
-from Polhig_Hellman_DL import polhig_hellman, order_g_f
+#sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "general_crypto"))
+from crypto_core.Polhig_Hellman_DL import polhig_hellman, order_g_f
 from sage.all import Integer
 
 r = remote('socket.cryptohack.org', 13391, level = 'info')

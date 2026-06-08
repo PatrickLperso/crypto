@@ -59,4 +59,4 @@ if __name__ == "__main__":
 
     # y1 = x1**2a2+x1*a1+a0 % p <=> a0 = y1 - (x1**2a2+x1*a1) % p 
     a0 = (y1 - pow(x1,2, PRIME)*a2-x1*a1)%PRIME
-    assert long_to_bytes(a0) == b'crypto{fr46m3n73d_b4ckup_vuln?}'w
+    assert long_to_bytes(a0) == b'crypto{fr46m3n73d_b4ckup_vuln?}'

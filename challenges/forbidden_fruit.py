@@ -3,8 +3,8 @@ import os, sys
 import requests
 
 # Ajout du répertoire repeated nonce
-sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "general_crypto"))
-from repeated_nonce_gcm import challenge
+#sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "general_crypto"))
+from crypto_core.repeated_nonce_gcm import challenge
 
 
 def decrypt_request(nonce, ciphertext, tag, associated_data):

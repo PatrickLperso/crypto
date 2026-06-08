@@ -10,8 +10,8 @@ r = remote('socket.cryptohack.org', 13379, level = 'debug')
 
 from deriving_symetric_keys import decrypt_flag 
 
-sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "general_crypto"))
-from Polhig_Hellman_DL import polhig_hellman
+#sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "general_crypto"))
+from crypto_core.Polhig_Hellman_DL import polhig_hellman
 
 def send_data(data:dict):
     # on envoie la requete 

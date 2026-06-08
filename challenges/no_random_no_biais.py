@@ -10,8 +10,8 @@ from hashlib import sha1
 import os,sys
 
 # Ajout du répertoire eliptic curve
-sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "general_crypto"))
-from ecdsa_biais_attack import challenge, samples
+#sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "general_crypto"))
+from crypto_core.ecdsa_biais_attack import challenge, samples
 
 def interface():
 

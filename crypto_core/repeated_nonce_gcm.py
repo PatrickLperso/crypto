@@ -2,7 +2,7 @@ from Crypto.Cipher import AES
 import os
 from Crypto.Util.number import bytes_to_long, long_to_bytes
 
-from galois_field import GF2_k, Poly_GF2_k
+from crypto_core.galois_field import GF2_k, Poly_GF2_k
 
 IV = os.urandom(12)
 KEY = os.urandom(16)

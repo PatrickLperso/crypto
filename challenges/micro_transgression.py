@@ -10,11 +10,11 @@ from functools import reduce
 
 from deriving_symetric_keys import decrypt_flag 
 
-sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "general_crypto"))
+#sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "general_crypto"))
 
-from Polhig_Hellman import polhig_hellman
-from Eliptic_curve import WeierStrass, PointWeirstrass
-from Modular_arithmetic import ChineseRemainder, pgcd
+from crypto_core.Polhig_Hellman import polhig_hellman
+from crypto_core.Eliptic_curve import WeierStrass, PointWeirstrass
+from crypto_core.Modular_arithmetic import ChineseRemainder, pgcd
 
 FLAG = b"crypto{???????????????????}"
 

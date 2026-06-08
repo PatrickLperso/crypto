@@ -171,36 +171,6 @@ class Ecb_padding_attack():
             print(f"nb_request:{self.nb_request}")
         return letters_found
 
-if __name__ == "__main__":
-    # ======= ECB padding oracle attack on "il_etait_UneFOIS12vielabe" ==========
-    ecb = Ecb_padding_attack()
-    
-    length_flag=ecb.length_flag()
-    assert length_flag==len(ecb.FLAG)
-
-    letters="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!*-+_"
-    letters_found = ecb.request_oracle(length_flag, letters, url=False)
-    assert letters_found==ecb.FLAG
-
-    # ======= ECB padding oracle attack on "il_etait_UneFOIS12viela8be74125e" ==========
-    ecb = Ecb_padding_attack()
-    ecb.FLAG = "il_etait_UneFOIS12viela8be74125e"
-    length_flag=ecb.length_flag()
-    assert length_flag==len(ecb.FLAG)
-
-    letters="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!*-+_"
-    letters_found = ecb.request_oracle(length_flag, letters, url=False)
-    assert letters_found==ecb.FLAG
-
-    # ======= ECB padding oracle attack slower on "il_etait_UneFOIS12vielabe" ==========
-    ecb = Ecb_padding_attack()
-    length_flag=ecb.length_flag()
-    letters="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!*-+_"
-
-    letters_found = ecb.request_oracle_stupid(length_flag, letters)
-    assert letters_found==ecb.FLAG
-
-
     
 
 

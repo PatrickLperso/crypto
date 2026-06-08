@@ -12,7 +12,7 @@ r = remote('socket.cryptohack.org', 13380, level = 'debug')
 
 from deriving_symetric_keys import decrypt_flag 
 
-sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "general_crypto"))
+#sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "general_crypto"))
 from tqdm import tqdm
 import gmpy2
 

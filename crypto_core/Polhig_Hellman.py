@@ -1,5 +1,5 @@
-from Eliptic_curve import WeierStrass, PointWeirstrass
-from Modular_arithmetic import ChineseRemainder, pgcd
+from crypto_core.Eliptic_curve import WeierStrass, PointWeirstrass
+from crypto_core.Modular_arithmetic import ChineseRemainder, pgcd
 import logging
 from typing import List, Tuple
 from tqdm import tqdm

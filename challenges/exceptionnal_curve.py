@@ -8,9 +8,9 @@ from sage.all import EllipticCurve, GF
 
 from deriving_symetric_keys import decrypt_flag 
 
-sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "general_crypto"))
+#sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "general_crypto"))
 
-from Eliptic_curve import WeierStrass, PointWeirstrass
+from crypto_core.Eliptic_curve import WeierStrass, PointWeirstrass
 from deriving_symetric_keys import decrypt_flag 
 
 FLAG = b'crypto{??????????????????????}'

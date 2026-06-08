@@ -14,8 +14,8 @@ from Crypto.Util.Padding import pad, unpad
 from hashlib import sha256
 
 from sage.all import EllipticCurve, GF
-from Eliptic_curve import WeierStrass, PointWeirstrass
-from Modular_arithmetic import ChineseRemainder
+from crypto_core.Eliptic_curve import WeierStrass, PointWeirstrass
+from crypto_core.Modular_arithmetic import ChineseRemainder
 
 logging.basicConfig(level=logging.INFO)
 # ===== Interfaces well defined  =========
