@@ -39,7 +39,7 @@ from itertools import combinations
 from functools import reduce
 
 #sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "general_crypto"))
-from crypto_core.Modular_arithmetic import ChineseRemainder, pgcd
+from crypto_core.modular_arithmetic import ChineseRemainder, pgcd
 
 def RSA_encrypt(message, e):
     m = bytes_to_long(message)

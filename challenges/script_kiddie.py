@@ -8,7 +8,7 @@ from deriving_symetric_keys import decrypt_flag
 import gmpy2
 
 #sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "general_crypto"))
-from crypto_core.Polhig_Hellman_DL import order_g_f
+from crypto_core.polhig_hellman_dl import order_g_f
 from sage.all import Integer
 
 def header():

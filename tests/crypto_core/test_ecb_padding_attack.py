@@ -1,13 +1,13 @@
 import pytest
-from crypto_core.Ecb_padding_attack import Ecb_padding_attack
+from crypto_core.ecb_padding_attack import Ecb_padding_attack
 
 # Liste des caractères autorisés partagée par tous les tests
 LETTERS = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!*-+_"
 
 @pytest.mark.parametrize("custom_flag, method_type", [
-    (None, "fast"), 
-    ("il_etait_UneFOIS12viela8be74125e", "fast"), 
-    (None, "slow")
+    pytest.param(None, "fast", id="flag par default methode rapide"), 
+    pytest.param("il_etait_UneFOIS12viela8be74125e", "fast", id="flag custom methode rapide"), 
+    pytest.param(None, "slow", id="flag par default methode lente"), 
 ])
 def test_ecb_padding_oracle_attack(custom_flag, method_type):
     ecb = Ecb_padding_attack()

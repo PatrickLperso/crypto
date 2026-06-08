@@ -8,7 +8,7 @@ from pwn import *
 
 #sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "general_crypto"))
 
-from crypto_core.Twisted_curve_attack import break_twist, break_curve,crt_system_equation_solution
+from crypto_core.twisted_curve_attack import break_twist, break_curve,crt_system_equation_solution
 
 r = remote('socket.cryptohack.org', 13416, level = 'debug')
 

@@ -1,4 +1,4 @@
-from crypto_core.Modular_arithmetic import pgcd, inverse_modulaire 
+from crypto_core.modular_arithmetic import pgcd, inverse_modulaire 
 from hashlib import sha256
 from Crypto.Util.number import bytes_to_long, long_to_bytes
 import gmpy2

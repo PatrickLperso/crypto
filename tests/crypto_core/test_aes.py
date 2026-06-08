@@ -1,4 +1,4 @@
-from crypto_core.AES import (matrix2bytes,
+from crypto_core.aes import (matrix2bytes,
                                 add_round_key, 
                                 sub_bytes, 
                                 inv_mix_columns, 

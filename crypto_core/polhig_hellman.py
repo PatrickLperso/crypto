@@ -1,11 +1,12 @@
-from crypto_core.Eliptic_curve import WeierStrass, PointWeirstrass
-from crypto_core.Modular_arithmetic import ChineseRemainder, pgcd
+from crypto_core.elliptic_curve import WeierStrass, PointWeirstrass
+from crypto_core.modular_arithmetic import ChineseRemainder, pgcd
 import logging
 from typing import List, Tuple
 from tqdm import tqdm
 import random as rd
 import psutil, os
 import pandas as pd
+import hashlib 
 
 # ====== A Lancer en tant que privilégié pour que l'os priorise ce processus ==========
 #p = psutil.Process(os.getpid())
@@ -33,6 +34,15 @@ def random_function(X_i:PointWeirstrass, a:int, b:int, P:PointWeirstrass, Q:Poin
         return  X_i+P, (a+1)%order, b%order
     else:
         return  X_i+Q, a%order, (b+1)%order
+
+
+def progress_filename(P: PointWeirstrass, Q: PointWeirstrass, order: int) -> str:
+    """
+    construit un nom unique de fichier selon P, Q, le sous groupe
+    """
+    key = f"{P.curve.a}:{P.curve.b}:{P.curve.p}:{P.x}:{P.y}:{Q.x}:{Q.y}:{order}"
+    digest = hashlib.sha256(key.encode()).hexdigest()[:16]
+    return f"{order}_{digest}.csv"
 
 def save_progress_file(k:int, P:PointWeirstrass, order:int, Q:PointWeirstrass, X_i:PointWeirstrass, A_i:int, B_i:int, x_i:PointWeirstrass, a_i:int, b_i:int, folder:str, csv_path:str):
 
@@ -97,7 +107,7 @@ def pollard_rho(P:PointWeirstrass, Q:PointWeirstrass, order:int, init:int, repri
     # a_i, b_i = coeff_random, 0
     folder = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "progress")
 
-    csv_path = os.path.join(folder, f"{order}.csv")
+    csv_path = os.path.join(folder, progress_filename(P, Q, order))
     file_exist = os.path.exists(csv_path)
 
     if not reprise_file or not file_exist:
@@ -121,6 +131,10 @@ def pollard_rho(P:PointWeirstrass, Q:PointWeirstrass, order:int, init:int, repri
         a_i, b_i = int(last_row["a_i"]),  int(last_row["b_i"])
 
         start=int(last_row["k"])
+
+        logging.info(f"Reprise à l'étape: {start}, fichier de cassage chargé : {csv_path}")
+
+
 
     a=None
     max_iterations= min(max_iterations,order)

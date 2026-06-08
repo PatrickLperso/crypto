@@ -12,8 +12,8 @@ from hashlib import sha256
 
 #sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "general_crypto"))
 
-from crypto_core.Eliptic_curve import WeierStrass, PointWeirstrass
-from crypto_core.Invalid_curve_attack import generate_invalid_curves, bruteforce_aes, bruteforce_sign_crt, key_uncipher
+from crypto_core.elliptic_curve import WeierStrass, PointWeirstrass
+from from crypto_core.invalid_curve_attack import generate_invalid_curves, bruteforce_aes, bruteforce_sign_crt, key_uncipher
 
 import logging
 logging.basicConfig(level=logging.INFO)

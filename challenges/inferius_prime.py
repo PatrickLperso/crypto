@@ -3,7 +3,7 @@ from Crypto.Util.number import bytes_to_long, long_to_bytes
 import os, sys
 
 #sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "general_crypto"))
-from crypto_core.Rsa import Rsa_privatekey, Rsa_publickey
+from crypto_core.rsa import Rsa_privatekey, Rsa_publickey
 
 
 # from Crypto.Util.number import getPrime, inverse, bytes_to_long, long_to_bytes, GCD

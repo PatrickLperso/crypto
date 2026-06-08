@@ -8,9 +8,9 @@ from sage.all import EllipticCurve, GF
 
 #sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "general_crypto"))
 
-from crypto_core.Polhig_Hellman import polhig_hellman
-from crypto_core.Eliptic_curve import WeierStrass, PointWeirstrass
-from crypto_core.Modular_arithmetic import ChineseRemainder, pgcd
+from crypto_core.polhig_hellman import polhig_hellman
+from crypto_core.elliptic_curve import WeierStrass, PointWeirstrass
+from crypto_core.modular_arithmetic import ChineseRemainder, pgcd
 
 FLAG = b"crypto{???????????????????????}"
 

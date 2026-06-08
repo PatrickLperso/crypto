@@ -4,9 +4,9 @@ from time import time
 from sage.all import EllipticCurve, GF, kronecker
 from Crypto.Util.number import bytes_to_long, long_to_bytes
 
-from crypto_core.Eliptic_curve import WeierStrass, PointWeirstrass
-from crypto_core.Polhig_Hellman import polhig_hellman
-from crypto_core.Modular_arithmetic import ChineseRemainder, pgcd
+from crypto_core.elliptic_curve import WeierStrass, PointWeirstrass
+from crypto_core.polhig_hellman import polhig_hellman
+from crypto_core.modular_arithmetic import ChineseRemainder, pgcd
 
 
 # # to read https://crypto.stackexchange.com/questions/19877/understanding-twist-security-with-respect-to-short-weierstrass-curves

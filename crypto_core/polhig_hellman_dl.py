@@ -1,4 +1,4 @@
-from crypto_core.Modular_arithmetic import ChineseRemainder, pgcd
+from crypto_core.modular_arithmetic import ChineseRemainder, pgcd
 import logging
 from typing import List, Tuple
 from tqdm import tqdm
@@ -6,7 +6,7 @@ import random as rd
 import psutil, os
 import pandas as pd
 import random
-from crypto_core.Modular_arithmetic import extended_euclidian
+from crypto_core.modular_arithmetic import extended_euclidian
 from sage.all import Integer
 from functools import reduce
 

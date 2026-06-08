@@ -13,7 +13,7 @@ r = remote('socket.cryptohack.org', 13373, level = 'debug')
 from deriving_symetric_keys import decrypt_flag 
 
 #sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "general_crypto"))
-from crypto_core.Polhig_Hellman_DL import polhig_hellman
+from crypto_core.polhig_hellman_dl import polhig_hellman
 from tqdm import tqdm
 import gmpy2
 

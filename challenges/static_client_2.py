@@ -16,7 +16,7 @@ logging.basicConfig(level=logging.INFO)
 from deriving_symetric_keys import decrypt_flag 
 
 #sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "general_crypto"))
-from crypto_core.Polhig_Hellman_DL import polhig_hellman, order_g_f
+from crypto_core.polhig_hellman_dl import polhig_hellman, order_g_f
 from sage.all import Integer
 
 # from cysignals.alarm import alarm, AlarmInterrupt, cancel_alarm

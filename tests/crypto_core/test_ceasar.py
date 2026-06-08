@@ -1,5 +1,5 @@
 
-from crypto_core.Ceasar import encrypt, decrypt, bruteforce
+from crypto_core.caesar import encrypt, decrypt, bruteforce
 
 def test_encrypt():
     # Paramètres 

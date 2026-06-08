@@ -106,7 +106,7 @@ def exemple_signature(hash_function_message, nb_signatures, signing_function):
     
     signatures = [signing_function(msg, priv, hash_function_message) for msg in messages[:nb_signatures]]
 
-    return signatures
+    return signatures, priv
 
 def construct_lattice(P_Im, T, A, B_p, B_last):
     B = np.concatenate((P_Im, T.reshape(1, -1), A.reshape(1, -1)), axis=0)
@@ -117,27 +117,6 @@ def reduce(B):
     B_ = IntegerMatrix.from_matrix(B)
     LLL.reduction(B_)
     return np.array([list(row) for row in B_], dtype=object)
-
-def test_reduction():
-    # ================= Probleme du CVP avec scaling facteur =================
-    order_curve = 401
-    m = 3
-    b= 20
-
-    P_Im = np.eye(m, dtype=object)*order_curve**2
-    T = np.array([143,293,304])*order_curve
-    A = np.array([62,300,86])*order_curve
-
-    B_p = np.zeros(m+2, dtype=object)
-    B_p[m] = b
-
-    B_last = np.zeros(m+2, dtype=object)
-    B_last[m+1] = b*order_curve
-
-    B = construct_lattice(P_Im, T, A, B_p, B_last)
-    B_LLL = reduce(B)
-    assert np.array_equal(B_LLL[1], np.array([-6015, -4812, -6416,  1840,  8020]))
-
 
 def recover_known_msb(bit_length_prefix, T_i, order_curve, signatures, b):
     # signatures [{"z":hash, "r":, "s"}]
@@ -224,23 +203,3 @@ def challenge(hash_function_message, signatures, bit_length_prefix, biais):
         raise Exception()
 
     return key
-
-if __name__ == "__main__":
-    # ================== Test Reduction ==================
-    test_reduction()
-
-    # ================== Test Biaised signatures sha1 nonce leading 96 bit 0 ==================
-    interface = exemple_signature
-    signatures = samples(interface, hash_function_message=sha256, nb_signatures=3, signing_function=signer_ecdsa_sha1_nonce)
-
-    key = challenge(hash_function_message=sha256, signatures = signatures, bit_length_prefix=96, biais=0)
-    print(f"\nkey recovered: {key}")
-
-    # ================== Test Biaised signatures sha256 leading 10 bit fixed to 0b1001110101 ==================
-    interface = exemple_signature
-
-    biais = int("1001110101", 2)
-    signatures = samples(interface, hash_function_message=sha256, nb_signatures=32, signing_function=signer_ecdsa_nonce_with_10_MSB_biaised)
-
-    key = challenge(hash_function_message=sha256, signatures=signatures, bit_length_prefix=10, biais=biais)
-    print(f"\nkey recovered: {key}")
