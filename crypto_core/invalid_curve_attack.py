@@ -152,19 +152,19 @@ def generate_invalid_curves(a:int,p:int,order:int,min_order_bruteforce:int, max_
             
             power_product=1
             for prime in primes_curves.keys():
-                power_product*=prime**primes_curves[prime]["power"]
+                power_product *= prime ** primes_curves[prime]["power"]
             #logging.info(f"power_product:2**{math.log2(power_product):.1f}, target:2**{math.log2(order):.1f}, nb_primes:{len(primes_curves.keys())}")
 
-            if progress_bar_last_value!=math.log2(power_product):
-                progress_bar.update(min(max_value-progress_bar_last_value, math.log2(power_product)-progress_bar_last_value))
+            if progress_bar_last_value != math.log2(power_product):
+                progress_bar.update(min(max_value - progress_bar_last_value, math.log2(power_product) - progress_bar_last_value))
                 progress_bar_last_value=math.log2(power_product)
 
-            if power_product>order:
+            if power_product > order:
                 logging.info(f"Number of primes (and server exchange) :{len(primes_curves.keys())}")
                 logging.info(f"Number of AES calculation needed :{(reduce(lambda x,y:x+y, list(primes_curves.keys())))//2}")
                 break
 
-    if power_product<order:
+    if power_product < order:
         raise Exception("Insufficent number of curves produced to break the curve")
 
     return primes_curves,b_primes
@@ -174,8 +174,8 @@ def bruteforce_key(iv:bytes, message_cipher:bytes, message_uncipher:bytes, Q:Poi
     # on ne fait que 1 à (order+1)//2 parce qu'on ne cherche que k mod order_subgroup ou -k mod order_subgroup
     for key_candidate in tqdm(range(1,(order_subgroup+1)//2)):
         if key_uncipher(key_candidate, Q, iv, message_cipher).startswith(message_uncipher):
-            break
-    return key_candidate
+            return key_candidate
+    raise Exception("something wrong")
 
 
 def bruteforce_aes(b_primes:dict, primes_curves:dict,message_uncipher:bytes, interface):
@@ -220,12 +220,14 @@ def bruteforce_sign_crt(crt_system_equations: List[tuple[int,int]], G:PointWeirs
         solution, modulo = ChineseRemainder(list(map(lambda x,y:((y*x[0])%x[1],x[1]),crt_system_equations, signs)), True)
 
         if key_uncipher((solution%order), G, iv, message_cipher).startswith(message_uncipher):
+            found = True
             break
     
     # En verité la clé secrète est peut-être (-solution%order) 
     # Mais on s'en fiche car ((-solution%order)*G).x == (solution%order*G).x 
     # Les deux donne la même clé AES
     # on aurait pu tester la coordonneé x du serveur car la clé publique nous est donnée
+    print(f"found :{found}")
     return solution%order
         
 
