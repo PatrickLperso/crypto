@@ -40,6 +40,8 @@ class TestInvalidCurve:
         # on une limite min pour ne pas avoir à bruteforce un système CRT trop complexe à la fin (on aura toujours k ou -k possible)
         # donc éliminer les nombres premiers trop petits permet de s'assurer que le brutefroce du CRT à la fin ne sera pas trop gourmand 
         # si 15 nombre premiers 2**15 systmes du CRT possibles si 20 2**20 etc ..
+
+        # Note : je ne teste pas le reste car c'est lent (au moins 10 min)
        
         primes_curves, b_primes=generate_invalid_curves(a,p,order,min_order_bruteforce=min_order_bruteforce, max_order_bruteforce=max_order_bruteforce, bmax=bmax)
         assert len(primes_curves.keys()) < bmax

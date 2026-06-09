@@ -15,5 +15,6 @@ git clone git@github.com:PatrickLperso/crypto.git
 cd ~/crypto
 python3 -m venv crypto_venv
 source crypto_venv/bin/activate
+export SAGE_CONF_FILE=/dev/null
 pip install -r requirements.txt
-```
+``` 
