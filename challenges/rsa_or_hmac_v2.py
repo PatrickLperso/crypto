@@ -47,21 +47,21 @@ def authorise_request(token):
 def pkcs1_v1_5_em(hash_bytes: bytes, key_size_bytes: int) -> bytes:
 
 
-    # 2️⃣ Préfixe DER fixe pour SHA-256 (DigestInfo)
+    # 2Préfixe DER fixe pour SHA-256 (DigestInfo)
     SHA256_DER_PREFIX = bytes.fromhex(
         "3031300d060960864801650304020105000420"
     )
     T = SHA256_DER_PREFIX + hash_bytes  # 51 octets
 
-    # 3️⃣ Calculer la longueur du padding PS
+    # Calculer la longueur du padding PS
     ps_length = key_size_bytes - len(T) - 3
     if ps_length < 8:
         raise ValueError("Clé RSA trop courte pour PKCS#1 v1.5")
 
-    # 4️⃣ Construire PS = FF...FF
+    # Construire PS = FF...FF
     PS = b'\xff' * ps_length
 
-    # 5️⃣ Construire EM = 00 || 01 || PS || 00 || T
+    # Construire EM = 00 || 01 || PS || 00 || T
     res = b'\x00\x01' + PS + b'\x00' + T
     return res
 
