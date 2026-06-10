@@ -11,7 +11,7 @@ import random
 import math
 
 def generate_vulnerable_keys(count=50, shared_pool_size=5):
-    # généré par gemini pour tester
+    # Généré par gemini pour tester
     """
     Génère 'count' clés RSA. Certaines partageront des facteurs communs.
     """

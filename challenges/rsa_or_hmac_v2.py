@@ -45,7 +45,7 @@ def authorise_request(token):
     return requests.get(f"https://web.cryptohack.org/rsa-or-hmac-2/authorise/{token}/").json()
 
 def pkcs1_v1_5_em(hash_bytes: bytes, key_size_bytes: int) -> bytes:
-    # Merci chatgpt pour le padding pkcs1_v5
+
 
     # 2️⃣ Préfixe DER fixe pour SHA-256 (DigestInfo)
     SHA256_DER_PREFIX = bytes.fromhex(

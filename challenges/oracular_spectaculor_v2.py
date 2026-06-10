@@ -153,6 +153,8 @@ def solve():
     r.close()
 
 if __name__ == "__main__":
+    # I'm not the owner of this, 
+    # a revoir et retravaillé avec les papier du créateur du challenge
     while True:
         try:
             solve()

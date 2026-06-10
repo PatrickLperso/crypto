@@ -84,7 +84,7 @@ primes = []
 #         if prime !=2:
 #             if prime == 97:
 #                 print("toto")
-#             # pour éviter un bug de merde
+#             # pour éviter un bug 
 #             list_prime_avoid = []
 
 #             print(f" ==================== prime : {prime} ================")

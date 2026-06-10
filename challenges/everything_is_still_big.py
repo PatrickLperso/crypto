@@ -187,11 +187,10 @@ def example():
     # X = 2 * floor(N**delta)
     # Y = floor(N**0.5)
 
-    # 1. Utiliser la fonction native de Python pour la racine carrée entière
-    # C'est parfait pour les très grands nombres et renvoie un int standard
+    # Utiliser la fonction native de Python pour la racine carrée entière
     Y = math.isqrt(N)
     
-    # 2. Convertir N en un réel Sage de haute précision AVANT la puissance
+    # Convertir N en un réel Sage de haute précision AVANT la puissance
     RR_prec = RealField(2048)
     
     # On convertit N explicitement, on applique la puissance, puis on re-transforme en entier Python (int)
